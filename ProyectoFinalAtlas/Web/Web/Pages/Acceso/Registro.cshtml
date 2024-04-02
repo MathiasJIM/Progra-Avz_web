@@ -1,0 +1,36 @@
+﻿@page
+@model Web.Pages.Acceso.RegistroModel
+@{
+}
+
+<h1>Registro de Usuario</h1>
+
+<form method="post">
+    <div>
+        <label for="NombreCompleto">Nombre Completo:</label>
+        <input type="text" id="NombreCompleto" name="NombreCompleto" />
+    </div>
+    <div>
+        <label for="CorreoElectronico">Correo Electrónico:</label>
+        <input type="email" id="CorreoElectronico" name="CorreoElectronico" />
+    </div>
+    <div>
+        <label for="Contrasena">Contraseña:</label>
+        <input type="password" id="ContrasenaHash" name="ContrasenaHash" />
+    </div>
+    <div>
+        <label for="ConfirmarContrasena">Confirmar Contraseña:</label>
+        <input type="password" id="ConfirmarContrasena" name="ConfirmarContrasena" />
+    </div>
+    <div>
+        <label for="IDRol">Rol:</label>
+        <select id="IDRol" name="IDRol">
+            <option value="1">Administrador</option>
+            <option value="2">Profesor</option>
+            <option value="3">Estudiante</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">Registrar</button>
+    </div>
+</form>

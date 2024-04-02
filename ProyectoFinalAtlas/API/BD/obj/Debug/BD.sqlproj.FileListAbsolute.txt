@@ -1,0 +1,10 @@
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\bin\Debug\BD.dacpac
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\bin\Debug\BD.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\bin\Debug\BD.pdb
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\obj\Debug\BD.sqlproj.AssemblyReference.cache
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\obj\Debug\Model.xml
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\obj\Debug\refactor.xml
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\obj\Debug\postdeploy.sql
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\obj\Debug\predeploy.sql
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\obj\Debug\BD.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\obj\Debug\BD.pdb

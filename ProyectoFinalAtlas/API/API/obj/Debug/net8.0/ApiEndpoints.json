@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "API.Controllers.AutenticacionController",
+    "Method": "Post",
+    "RelativePath": "api/Autenticacion/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "Abstracciones.Modelos.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AutenticacionController",
+    "Method": "ObtenerUsuarioPorCorreo",
+    "RelativePath": "api/Autenticacion/ObtenerUsuarioPorCorreo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "correoElectronico",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Abstracciones.Models.Usuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.AutenticacionController",
+    "Method": "GetValidarAutenticacion",
+    "RelativePath": "api/Autenticacion/Validar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.UsuarioController",
+    "Method": "PostAsync",
+    "RelativePath": "api/Usuario/AgregarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Abstracciones.Models.RegistroUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

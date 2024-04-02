@@ -1,0 +1,379 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\abtracciones\\modelos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\pages\\acceso\\registro.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\acceso\\registro.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\pages\\acceso\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\acceso\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\abtracciones\\modelos\\registrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\registrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\helpers\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\helpers\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\abtracciones\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\pages\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\pages\\acceso\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\acceso\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\pages\\acceso\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\acceso\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\web\\pages\\acceso\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\acceso\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\abtracciones\\modelos\\apiendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\apiendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\abtracciones\\modelos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\abtracciones\\modelos\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\proyectofinalatlas\\web\\abtracciones\\modelos\\estadocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\estadocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistroUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\RegistroUsuario.cs",
+              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\RegistroUsuario.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\RegistroUsuario.cs",
+              "RelativeToolTip": "Abtracciones\\Modelos\\RegistroUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T03:43:03.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registro.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Registro.cshtml.cs",
+              "RelativeDocumentMoniker": "Web\\Pages\\Acceso\\Registro.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Registro.cshtml.cs",
+              "RelativeToolTip": "Web\\Pages\\Acceso\\Registro.cshtml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwC0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T03:18:00.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Registro.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Acceso\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Registro.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Acceso\\Registro.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T02:45:55.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Web\\Pages\\Acceso\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Logout.cshtml.cs",
+              "RelativeToolTip": "Web\\Pages\\Acceso\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T02:29:45.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Acceso\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Logout.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Acceso\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T02:29:12.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T02:28:00.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:54:51.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Web\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Web\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:50:52.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T00:50:49.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EstadoCuenta.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\EstadoCuenta.cs",
+              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\EstadoCuenta.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\EstadoCuenta.cs",
+              "RelativeToolTip": "Abtracciones\\Modelos\\EstadoCuenta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:46:17.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Rol.cs",
+              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\Rol.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Rol.cs",
+              "RelativeToolTip": "Abtracciones\\Modelos\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:46:12.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Usuario.cs",
+              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Usuario.cs",
+              "RelativeToolTip": "Abtracciones\\Modelos\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:45:57.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Token.cs",
+              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\Token.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Token.cs",
+              "RelativeToolTip": "Abtracciones\\Modelos\\Token.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:42:43.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Login.cs",
+              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\Login.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Login.cs",
+              "RelativeToolTip": "Abtracciones\\Modelos\\Login.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T00:34:34.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Web\\Pages\\Acceso\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Login.cshtml.cs",
+              "RelativeToolTip": "Web\\Pages\\Acceso\\Login.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T23:45:29.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Login.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Acceso\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Login.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Acceso\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T23:44:45.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApiEndPoints.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\ApiEndPoints.cs",
+              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\ApiEndPoints.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\ApiEndPoints.cs",
+              "RelativeToolTip": "Abtracciones\\Modelos\\ApiEndPoints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T23:43:12.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\appsettings.json",
+              "RelativeToolTip": "Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-28T23:40:33.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Helpers\\Configuracion.cs",
+              "RelativeDocumentMoniker": "Web\\Helpers\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\Web\\Web\\Helpers\\Configuracion.cs",
+              "RelativeToolTip": "Web\\Helpers\\Configuracion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T23:37:57.566Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

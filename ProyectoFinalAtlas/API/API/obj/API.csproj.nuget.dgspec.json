@@ -1,0 +1,560 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\API\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj",
+        "projectName": "Abstracciones",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj",
+        "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj"
+              },
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\AutorizacionMiddleware\\AutorizacionMiddleware.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\AutorizacionMiddleware\\AutorizacionMiddleware.csproj"
+              },
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BC\\BC.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BC\\BC.csproj"
+              },
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BW\\BW.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BW\\BW.csproj"
+              },
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\AutorizacionMiddleware\\AutorizacionMiddleware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\AutorizacionMiddleware\\AutorizacionMiddleware.csproj",
+        "projectName": "AutorizacionMiddleware",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\AutorizacionMiddleware\\AutorizacionMiddleware.csproj",
+        "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\AutorizacionMiddleware\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BC\\BC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BC\\BC.csproj",
+        "projectName": "BC",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BC\\BC.csproj",
+        "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BW\\BW.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BW\\BW.csproj",
+        "projectName": "BW",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BW\\BW.csproj",
+        "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\BW\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj",
+        "projectName": "DA",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj",
+        "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj"
+              },
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj",
+        "projectName": "Helpers",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj",
+        "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

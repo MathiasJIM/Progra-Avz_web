@@ -1,0 +1,15 @@
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\BC.csproj.AssemblyReference.cache
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\BC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\BC.AssemblyInfoInputs.cache
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\BC.AssemblyInfo.cs
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\BC.csproj.CoreCompileInputs.cache
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\bin\Debug\net8.0\BC.deps.json
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\bin\Debug\net8.0\BC.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\bin\Debug\net8.0\BC.pdb
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\bin\Debug\net8.0\Abstracciones.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\bin\Debug\net8.0\Abstracciones.pdb
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\BC.csproj.Up2Date
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\BC.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\refint\BC.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\BC.pdb
+C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BC\obj\Debug\net8.0\ref\BC.dll
