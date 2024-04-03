@@ -59,11 +59,13 @@
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
     <Folder Include="dbo\Stored Procedures" />
+    <Folder Include="scriptDB" />
   </ItemGroup>
   <ItemGroup>
     <None Include="dbo\Stored Procedures\LlenarRoles.sql" />
     <None Include="dbo\Stored Procedures\LlenarEstadoCuenta.sql" />
     <None Include="dbo\Stored Procedures\ObtenerUsuario.sql" />
     <None Include="dbo\Stored Procedures\AgregarUsuario.sql" />
+    <None Include="scriptDB\DB.sql" />
   </ItemGroup>
 </Project>

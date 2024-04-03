@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -113,10 +113,6 @@
               "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "style.css",
@@ -126,8 +122,7 @@
               "RelativeToolTip": "Web\\wwwroot\\css\\style.css",
               "ViewState": "AQIAAG4BAAAAAAAAAAAAABwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-02T23:55:05.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T23:55:05.925Z"
             },
             {
               "$type": "Document",
@@ -137,7 +132,7 @@
               "RelativeDocumentMoniker": "Web\\Pages\\Shared\\_DashboardLayout.cshtml",
               "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Shared\\_DashboardLayout.cshtml",
               "RelativeToolTip": "Web\\Pages\\Shared\\_DashboardLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAARAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-02T23:07:59.646Z",
               "EditorCaption": ""
@@ -152,8 +147,7 @@
               "RelativeToolTip": "Abtracciones\\Modelos\\ActualizarUsuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T22:28:22.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T22:28:22.94Z"
             },
             {
               "$type": "Document",
@@ -177,8 +171,7 @@
               "RelativeToolTip": "Abtracciones\\Modelos\\Rol.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T05:50:45.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T05:50:45.027Z"
             },
             {
               "$type": "Document",
@@ -190,8 +183,7 @@
               "RelativeToolTip": "Abtracciones\\Modelos\\EstadoCuenta.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T05:39:34.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T05:39:34.469Z"
             },
             {
               "$type": "Document",
@@ -215,8 +207,7 @@
               "RelativeToolTip": "Web\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T04:18:09.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T04:18:09.94Z"
             },
             {
               "$type": "Document",
@@ -240,8 +231,7 @@
               "RelativeToolTip": "Abtracciones\\Modelos\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T04:00:31.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T04:00:31.263Z"
             },
             {
               "$type": "Document",
@@ -253,8 +243,7 @@
               "RelativeToolTip": "Abtracciones\\Modelos\\RegistroUsuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T04:00:27.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T04:00:27.946Z"
             },
             {
               "$type": "Document",
@@ -266,8 +255,7 @@
               "RelativeToolTip": "Web\\Pages\\Acceso\\Login.cshtml.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAgwCUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T03:59:38.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T03:59:38.327Z"
             },
             {
               "$type": "Document",
@@ -279,8 +267,7 @@
               "RelativeToolTip": "Web\\Pages\\Usuario\\ActualizarUsuario.cshtml.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAwwDMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T03:54:12.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T03:54:12.427Z"
             },
             {
               "$type": "Document",
@@ -292,8 +279,7 @@
               "RelativeToolTip": "Web\\Pages\\Usuario\\ActualizarUsuario.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T03:51:53.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T03:51:53.822Z"
             },
             {
               "$type": "Document",
@@ -305,8 +291,7 @@
               "RelativeToolTip": "Web\\Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T03:51:34.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T03:51:34.451Z"
             },
             {
               "$type": "Document",
@@ -318,8 +303,7 @@
               "RelativeToolTip": "Web\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T03:49:22.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T03:49:22.933Z"
             },
             {
               "$type": "Document",
@@ -331,8 +315,11 @@
               "RelativeToolTip": "Web\\Pages\\Acceso\\Registro.cshtml.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAADAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T03:49:17.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T03:49:17.033Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }

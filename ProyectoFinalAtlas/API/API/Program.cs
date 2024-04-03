@@ -55,6 +55,8 @@ namespace API
             builder.Services.AddScoped<IUsuarioDA, UsuarioDA>();
             builder.Services.AddScoped<IUsuarioBC, UsuarioBC>();
             builder.Services.AddScoped<IUsuarioBW, UsuarioBW>();
+            builder.Services.AddScoped<IPerfilBW, PerfilBW>();
+            builder.Services.AddScoped<IPerfilDA, PerfilDA>();
 
 
 

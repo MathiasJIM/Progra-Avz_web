@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "API.Controllers.PerfilController",
+    "Method": "ActualizarUsuarioPorId",
+    "RelativePath": "ActualizarPerfil/{IDusuario}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDusuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "perfil",
+        "Type": "Abstracciones.Models.Perfil",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.AutenticacionController",
     "Method": "Post",
     "RelativePath": "api/Autenticacion/Login",
@@ -130,6 +151,43 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.PerfilController",
+    "Method": "PostAsync",
+    "RelativePath": "CrearPerfil",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "perfil",
+        "Type": "Abstracciones.Models.Perfil",
+        "IsRequired": true
+      },
+      {
+        "Name": "IDusuario",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.PerfilController",
+    "Method": "ObtenerUsuarioId",
+    "RelativePath": "GetPerfilPorIdUser/{IDUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDUsuario",
         "Type": "System.Guid",
         "IsRequired": true
       }
