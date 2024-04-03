@@ -10,7 +10,5 @@ namespace Abstracciones.Models
     {
         public int ID { get; set; }
         public string Estado { get; set; }
-
-        public virtual ICollection<Usuario> Usuarios { get; set; }
     }
 }

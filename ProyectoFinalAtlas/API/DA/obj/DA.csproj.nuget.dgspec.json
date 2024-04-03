@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj": {}
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\DA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj",
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj",
         "projectName": "Abstracciones",
-        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj",
         "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\obj\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj": {
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\DA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj",
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\DA.csproj",
         "projectName": "DA",
-        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\DA.csproj",
         "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\obj\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -110,11 +110,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
-                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj"
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Abstracciones.csproj"
               },
-              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj": {
-                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj"
+              "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj"
               }
             }
           }
@@ -167,14 +167,14 @@
         }
       }
     },
-    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj": {
+    "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj",
         "projectName": "Helpers",
-        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj",
+        "projectPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj",
         "packagesPath": "C:\\Users\\Mathias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\obj\\",
+        "outputPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mathias\\AppData\\Roaming\\NuGet\\NuGet.Config",

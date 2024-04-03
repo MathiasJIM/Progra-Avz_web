@@ -20,7 +20,7 @@ namespace Web.Pages
         }
         public async Task<IActionResult> OnGetAsync()
         {
-            if (ModelState.IsValid && User.Identity.IsAuthenticated && User.IsInRole("1"))
+            if (ModelState.IsValid && User.Identity.IsAuthenticated)
             {
                 string endPoint = _configuracion.GetEndpoint("Validar");
                 var cliente = new HttpClient();

@@ -1,0 +1,28 @@
+﻿@page
+@model Web.Pages.Usuario.ActualizarUsuarioModel
+@{
+    ViewData["Title"] = "Actualizar Usuario";
+}
+
+<h1>Actualizar Usuario</h1>
+
+@if (!string.IsNullOrEmpty(Model.Mensaje))
+{
+    <div class="alert alert-success" role="alert">
+        @Model.Mensaje
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="NombreCompleto">Nombre Completo:</label>
+        <input type="text" id="NombreCompleto" name="NombreCompleto" class="form-control" value="@Model.Usuario.NombreCompleto" required />
+        <span asp-validation-for="Usuario.NombreCompleto" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="CorreoElectronico">Correo Electrónico:</label>
+        <input type="email" id="CorreoElectronico" name="CorreoElectronico" class="form-control" value="@Model.Usuario.CorreoElectronico" required />
+        <span asp-validation-for="Usuario.CorreoElectronico" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+</form>

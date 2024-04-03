@@ -32,7 +32,6 @@ namespace API.Controllers
 
         [HttpGet]
         [Route("Validar")]
-        [Authorize(Roles = "1")]
         public IActionResult GetValidarAutenticacion()
         {
             return Ok("Token Valido");

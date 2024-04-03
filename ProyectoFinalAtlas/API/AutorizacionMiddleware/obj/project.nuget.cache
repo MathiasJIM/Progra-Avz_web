@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "br96JwIFQS/N43/c6xgKC8DVjmv4aKTh+1O8GF8l4G3L4KVmzvSUndhj6dXMSZheKOn6H6pVezr8Htc0jcik2g==",
+  "dgSpecHash": "6U6wSZEeSR4wWhvq5ffYpPIP5iUV6ltiPkRRK9zSmHSN3uycszhz+UHJZ72ewTIhqGXw902qCJEi33E1Anj2cQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\AutorizacionMiddleware\\AutorizacionMiddleware.csproj",
+  "projectFilePath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\AutorizacionMiddleware\\AutorizacionMiddleware.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mathias\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Mathias\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

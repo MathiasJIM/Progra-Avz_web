@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o75EAe2nHQMntWo71Bi4JfFMvktYwCE5D29PhrVHzAab/Y6umCyHyX6kNUcjQUkePPapBjVq7rpFZ6DbS95ynw==",
+  "dgSpecHash": "1Pn6uVVu+GlkJl8HbV88fXr8ylfrSYWK52yc4nW3SF701s7OHUZ11F20IUWNqIp+fEmS1TlPL7qnT6+4pkQDkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\DA\\DA.csproj",
+  "projectFilePath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\DA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mathias\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Mathias\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

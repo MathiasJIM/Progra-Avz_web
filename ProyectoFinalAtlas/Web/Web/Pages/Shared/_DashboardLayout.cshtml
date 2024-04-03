@@ -1,0 +1,87 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"] - Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="search-wrap">
+            <div></div>
+            <div class="dropdown">
+                <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    @User.Identity.Name
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class ="dropdown-item" asp-area="" asp-page="/Usuario/ActualizarUsuario">Usuario</a>
+                    <a class="dropdown-item" asp-page="/Acceso/Logout">Cerrar Sesión</a></>
+                </div>
+            </div>
+        </aside>
+
+        <header class="menu-wrap">
+            <figure class="user">
+                <div class="user-avatar">
+                    <img src="~/images/logo_icecastle.png" alt="Logo">
+                </div>
+                <figcaption>
+                    Ice Castle
+                </figcaption>
+            </figure>
+
+            <nav>
+                <section class="dicover">
+                    <ul>
+                        <li>
+                            <a asp-area="" asp-page="/Noticias">
+                                <i class="fa fa-star"></i>
+                                Noticias
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-page="/MostPopular">
+                                <i class="fa fa-fire"></i>
+                                Calendario
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-page="/Categories">
+                                <i class="fa fa-th"></i>
+                                Recursos
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-page="/Shuffle">
+                                <i class="fa fa-random"></i>
+                                Reglamentos
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-page="/Shuffle">
+                                <i class="fa fa-random"></i>
+                                Roles
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+        </header>
+
+        <main class="content-wrap">
+            <div class="content">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

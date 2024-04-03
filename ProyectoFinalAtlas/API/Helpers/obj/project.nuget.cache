@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h0iZmXo7xkvevTbU97UPl+uUE4qhSr6DCuX71Vp0NN9OV9w0QZz/xXKL7zICovF27oH9yZehdmelw83w3k6iJQ==",
+  "dgSpecHash": "3UDe+wIYfHg8fWfJVrrxmHQF5d/p2yJx7dbgCJY/1ustPgR20jCYEC2R5KYkshbvxEoM0+Y3QUVNZw1G3zM/9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj",
+  "projectFilePath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Helpers\\Helpers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mathias\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Mathias\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.2.24128.5\\microsoft.extensions.configuration.9.0.0-preview.2.24128.5.nupkg.sha512",

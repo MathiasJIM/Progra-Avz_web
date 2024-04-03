@@ -54,7 +54,7 @@ namespace Web.Pages.Acceso
                 if (infoUsuarioResponse.IsSuccessStatusCode)
                 {
                     var usuarioJson = await infoUsuarioResponse.Content.ReadAsStringAsync();
-                    var usuario = JsonConvert.DeserializeObject<Usuario>(usuarioJson);
+                    var usuario = JsonConvert.DeserializeObject<Abstracciones.Modelos.Usuario>(usuarioJson);
 
                     JwtSecurityToken? tokens = leerInformacionToken();
                     await AgregarClaims(tokens, usuario);
@@ -73,14 +73,15 @@ namespace Web.Pages.Acceso
             return response;
         }
 
-        private async Task AgregarClaims(JwtSecurityToken? tokens, Usuario usuario)
+        private async Task AgregarClaims(JwtSecurityToken? tokens, Abstracciones.Modelos.Usuario usuario)
         {
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, usuario.NombreCompleto),
                 new Claim(ClaimTypes.Email, usuario.CorreoElectronico),
                 new Claim(ClaimTypes.Role,usuario.IDRol.ToString()),
-                new Claim("Token", token.AccessToken)
+                new Claim("Token", token.AccessToken),
+                new Claim("Id", usuario.ID.ToString())
             };
 
             await establecerAutenticacion(claims);
