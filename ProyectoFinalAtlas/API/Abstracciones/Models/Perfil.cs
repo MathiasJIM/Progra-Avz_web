@@ -29,7 +29,6 @@ namespace Abstracciones.Models
         public string NumeroTelefono { get; set; }
 
         public DateTime FechaNacimiento { get; set; }
-
         [StringLength(255)]
         public string FotoPerfil { get; set; }
 

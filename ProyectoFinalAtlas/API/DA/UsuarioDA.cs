@@ -24,7 +24,7 @@ namespace DA
         public async Task<Guid> RegistrarUsuario(Abstracciones.Models.RegistroUsuario usuario)
         {
             string sql = @"[AgregarUsuario]";
-            var Consulta = await _sqlConnection.ExecuteScalarAsync<Guid>(sql, new { NombreCompleto = usuario.NombreCompleto, PasswordHash = usuario.ContrasenaHash, CorreoElectronico = usuario.CorreoElectronico, IDRol = usuario.IDRol });
+            var Consulta = await _sqlConnection.ExecuteScalarAsync<Guid>(sql, new { NombreUsuario = usuario.NombreCompleto, PasswordHash = usuario.ContrasenaHash, CorreoElectronico = usuario.CorreoElectronico, IDRol = usuario.IDRol });
             return Consulta;
         }
 

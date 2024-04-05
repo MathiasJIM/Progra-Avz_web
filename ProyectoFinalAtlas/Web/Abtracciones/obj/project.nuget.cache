@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Y/33pE5Rt+vw0rFPnnez284paIShWPrSX6pWdM2c/17qiDi0jL+y8zYOqQgONYEHgemr0Oyg5AoXIPEafBDicg==",
+  "dgSpecHash": "U1HW/+MJ4NbA87O0p7bNR8GVJwfexBRw9gmKI+tC8rFsf/Huv9FefFqt5uD8n13WU61DQ5qo5QpyS3NZPK4coQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Abtracciones\\Abstracciones.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mathias\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Mathias\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Mathias\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

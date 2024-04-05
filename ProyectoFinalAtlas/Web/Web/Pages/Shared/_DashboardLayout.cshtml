@@ -20,7 +20,7 @@
                     @User.Identity.Name
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class ="dropdown-item" asp-area="" asp-page="/Usuario/ActualizarUsuario">Usuario</a>
+                    <a class ="dropdown-item" asp-area="" asp-page="/Perfil/Perfil">Perfil</a>
                     <a class="dropdown-item" asp-page="/Acceso/Logout">Cerrar Sesión</a></>
                 </div>
             </div>
@@ -63,12 +63,15 @@
                                 Reglamentos
                             </a>
                         </li>
-                        <li>
-                            <a asp-area="" asp-page="/Shuffle">
-                                <i class="fa fa-random"></i>
-                                Roles
-                            </a>
-                        </li>
+                         @if (User.IsInRole("1")){
+                            <li>
+                                <a asp-area="" asp-page="Acceso/Registro">
+                                    <i class="fa fa-random"></i>
+                                    Usuarios
+                                </a>
+                            </li>
+                         }
+
                     </ul>
                 </section>
             </nav>

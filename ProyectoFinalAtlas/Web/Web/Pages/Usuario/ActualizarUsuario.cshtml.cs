@@ -26,6 +26,7 @@ namespace Web.Pages.Usuario
         [BindProperty]
         public Abstracciones.Modelos.Usuario Usuario { get; set; }
 
+
         public string Mensaje { get; set; }
 
         public async Task<IActionResult> OnGetAsync()

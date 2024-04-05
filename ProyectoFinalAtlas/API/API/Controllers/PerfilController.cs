@@ -11,6 +11,8 @@ using System.Text;
 
 namespace API.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class PerfilController : Controller, IPerfilController
     {
 
@@ -29,7 +31,7 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        [Route("CrearPerfil")]
+        [Route("CrearPerfil/{IDusuario}")]
         public async Task<IActionResult> PostAsync([FromBody] Perfil perfil, Guid IDusuario)
         {
             return Ok(await _PerfilBW.CrearPerfil(perfil,IDusuario));

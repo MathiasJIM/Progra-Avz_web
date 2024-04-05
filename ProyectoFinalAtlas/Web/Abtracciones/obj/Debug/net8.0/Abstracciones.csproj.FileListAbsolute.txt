@@ -21,3 +21,4 @@ C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\refint\Abstracciones.dll
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\Abstracciones.pdb
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\ref\Abstracciones.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\Abstracciones.csproj.AssemblyReference.cache

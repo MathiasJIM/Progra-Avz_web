@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Abtracciones\Abstracciones.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\Perfiles\" />
+  </ItemGroup>
+
 </Project>

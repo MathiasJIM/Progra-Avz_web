@@ -1,0 +1,32 @@
+﻿@page
+@model Web.Pages.Perfil.ActualizarPerfilModel
+
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Perfil";
+}
+
+<div class="container">
+    <h2 class="my-4">Perfil</h2>
+    @if (Model.Perfil != null){
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">@Model.Perfil.Nombre</h4>
+                <p class="card-text"><strong>Nombre del Padre/Encargado:</strong> @Model.Perfil.NombrePadreEncargado</p>
+                <p class="card-text"><strong>Contacto de Emergencia:</strong> @Model.Perfil.ContactoEmergencia</p>
+                <p class="card-text"><strong>Número de Teléfono:</strong> @Model.Perfil.NumeroTelefono</p>
+                <p class="card-text"><strong>Fecha de Nacimiento:</strong> @Model.Perfil.FechaNacimiento.ToShortDateString()</p>
+                @if (!string.IsNullOrEmpty(Model.Perfil.FotoPerfil))
+                {
+                    <img src="@Model.Perfil.FotoPerfil" class="img-fluid rounded-circle" alt="Foto de Perfil" style="max-width: 150px;">
+                }
+            </div>
+
+            <a class="btn-primary" asp-area="" asp-page="ActualizarPerfil">Actualizar Perfil</a>
+        </div>
+    }else{
+        <p>No tienes un perfil. Por favor, <a asp-page="/Perfil/CrearPerfil">Crear uno</a>.</p>
+    }
+</div>
+
+

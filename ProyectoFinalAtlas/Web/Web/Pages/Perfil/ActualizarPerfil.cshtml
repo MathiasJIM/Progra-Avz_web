@@ -1,0 +1,46 @@
+﻿@page
+@model Web.Pages.Perfil.ActualizarPerfilModel
+
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Actualizar Perfil";
+}
+
+<div class="container">
+    <h2 class="my-4">Actualizar Perfil</h2>
+
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Perfil.Nombre">Nombre</label>
+            <input asp-for="Perfil.Nombre" class="form-control" />
+            <span asp-validation-for="Perfil.Nombre" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Perfil.NombrePadreEncargado">Nombre del Padre/Encargado</label>
+            <input asp-for="Perfil.NombrePadreEncargado" class="form-control" />
+            <span asp-validation-for="Perfil.NombrePadreEncargado" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Perfil.ContactoEmergencia">Contacto de Emergencia</label>
+            <input asp-for="Perfil.ContactoEmergencia" class="form-control" />
+            <span asp-validation-for="Perfil.ContactoEmergencia" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Perfil.NumeroTelefono">Número de Teléfono</label>
+            <input asp-for="Perfil.NumeroTelefono" class="form-control" />
+            <span asp-validation-for="Perfil.NumeroTelefono" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Perfil.FechaNacimiento">Fecha de Nacimiento</label>
+            <input asp-for="Perfil.FechaNacimiento" type="date" class="form-control" />
+            <span asp-validation-for="Perfil.FechaNacimiento" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="FotoPerfil">Foto de Perfil</label>
+            <input type="file" class="form-control-file" id="FotoPerfil" name="FotoPerfil" accept="image/png, image/jpeg">
+            <span asp-validation-for="FotoPerfil" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Actualizar</button>
+    </form>
+</div>
