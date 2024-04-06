@@ -66,6 +66,6 @@
     <None Include="dbo\Stored Procedures\LlenarEstadoCuenta.sql" />
     <None Include="dbo\Stored Procedures\ObtenerUsuario.sql" />
     <None Include="dbo\Stored Procedures\AgregarUsuario.sql" />
-    <None Include="scriptDB\DB.sql" />
+    <None Include="scriptDB\ScriptBD.sql" />
   </ItemGroup>
 </Project>

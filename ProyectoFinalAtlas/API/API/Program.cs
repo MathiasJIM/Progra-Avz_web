@@ -58,6 +58,10 @@ namespace API
             builder.Services.AddScoped<IPerfilBW, PerfilBW>();
             builder.Services.AddScoped<IPerfilDA, PerfilDA>();
 
+            builder.Services.AddScoped<INoticiaBW, NoticiaBW>();
+            builder.Services.AddScoped<INoticiaDA, NoticiaDA>();
+
+
 
 
 

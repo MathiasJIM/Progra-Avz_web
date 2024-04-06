@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutorizacionMiddleware")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aaf33ad0cd01fce06bae7f1bebf786260af5ede")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d4d19b84e11847fc452c80bc2c38ba55d636aa8")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutorizacionMiddleware")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutorizacionMiddleware")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

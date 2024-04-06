@@ -52,6 +52,127 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API.Controllers.NoticiaController",
+    "Method": "ActualizarNoticiaPorID",
+    "RelativePath": "api/Noticia/ActualizarNoticiaPorID/{IDNoticia}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDNoticia",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "noticia",
+        "Type": "Abstracciones.Models.Noticia",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NoticiaController",
+    "Method": "PostAsync",
+    "RelativePath": "api/Noticia/CrearNoticia/{IdUsuario}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noticia",
+        "Type": "Abstracciones.Models.Noticia",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NoticiaController",
+    "Method": "EliminarNoticiaPorID",
+    "RelativePath": "api/Noticia/EliminarNoticiaPorID/{IDNoticia}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDNoticia",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NoticiaController",
+    "Method": "EliminarNoticiasPorUsuario",
+    "RelativePath": "api/Noticia/EliminarNoticiasPorUsuario/{IDusuario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDNoticia",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "IDusuario",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NoticiaController",
+    "Method": "MostrarNoticias",
+    "RelativePath": "api/Noticia/MostrarNoticias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NoticiaController",
+    "Method": "ObtenerNoticiaPorID",
+    "RelativePath": "api/Noticia/ObtenerNoticiaPorID/{IDNoticia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDNoticia",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.NoticiaController",
+    "Method": "ObtenerNoticiasPorUsuario",
+    "RelativePath": "api/Noticia/ObtenerNoticiasPorUsuario/{IDUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.PerfilController",
     "Method": "ActualizarUsuarioPorId",
     "RelativePath": "api/Perfil/ActualizarPerfil/{IDusuario}",

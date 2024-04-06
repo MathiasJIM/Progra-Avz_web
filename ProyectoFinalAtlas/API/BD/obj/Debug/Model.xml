@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="BD.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\MATHIAS\ONEDRIVE\ESCRITORIO\PAA\PROYECTOFINALATLAS\API\BD\OBJ\DEBUG\BD.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\MATHIAS\ONEDRIVE\ESCRITORIO\PAA\GRUPOATLAS-PROYECTO\PROYECTOFINALATLAS\API\BD\OBJ\DEBUG\BD.DLL" />
 			<Metadata Name="AssemblyName" Value="BD" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\API\BD\obj\Debug\BD.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\API\BD\obj\Debug\BD.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
