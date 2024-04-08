@@ -12,6 +12,7 @@ C:\Users\Mathias\OneDrive\Escritorio\PAA\ProyectoFinalAtlas\Web\Abtracciones\obj
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\bin\Debug\net8.0\Abstracciones.deps.json
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\bin\Debug\net8.0\Abstracciones.dll
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\bin\Debug\net8.0\Abstracciones.pdb
+C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\Abstracciones.csproj.AssemblyReference.cache
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\Abstracciones.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\Abstracciones.AssemblyInfoInputs.cache
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\Abstracciones.AssemblyInfo.cs
@@ -21,4 +22,3 @@ C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\refint\Abstracciones.dll
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\Abstracciones.pdb
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\ref\Abstracciones.dll
-C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\Web\Abtracciones\obj\Debug\net8.0\Abstracciones.csproj.AssemblyReference.cache

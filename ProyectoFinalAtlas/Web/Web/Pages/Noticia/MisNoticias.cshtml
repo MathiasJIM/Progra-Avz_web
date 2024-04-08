@@ -1,0 +1,52 @@
+﻿@page
+@model Web.Pages.Noticia.MisNoticiasModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Mis Noticias";
+}
+
+<h2>Mis Noticias</h2>
+
+@if (User.IsInRole("1") || User.IsInRole("2"))
+{
+
+    <div class="d-flex justify-content-center">
+        <a class="btn btn-dark" asp-page="/Noticia/PublicarNoticia">Publicar Noticia</a>
+    </div>
+
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Fecha de Publicación</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var noticia in Model.Noticias)
+        {
+            <tr>
+                <td>@noticia.Titulo</td>
+                <td>@noticia.Descripcion</td>
+                <td>@noticia.FechaPublicacion.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-page="/Noticia/EditarNoticia" asp-route-IDNoticia="@noticia.ID" class="btn btn-primary">
+                        <i class="fas fa-edit">Editar</i>
+                    </a>
+                    <form method="post" asp-page-handler="Delete" asp-route-id="@noticia.ID">
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> Eliminar
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+

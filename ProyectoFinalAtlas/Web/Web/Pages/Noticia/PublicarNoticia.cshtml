@@ -1,0 +1,24 @@
+﻿@page
+@model Web.Pages.Noticia.PublicarNoticiaModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Publicar Noticia";
+}
+
+<div class="main-block">
+    <div class="left-part">
+        <i class="fas fa-newspaper"></i>
+        <i class="fas fa-edit"></i>
+        <i class="fas fa-calendar-alt"></i>
+    </div>
+    <form method="post" enctype="multipart/form-data">
+        <h1>Publicar Noticia</h1>
+        <div class="info">
+            <input asp-for="Noticia.Titulo" type="text" placeholder="Título">
+            <textarea asp-for="Noticia.Descripcion" placeholder="Descripción" rows="4"></textarea>
+            <input asp-for="FotoNoticia" type="file" multiple placeholder="Selecciona imágenes">
+            <input asp-for="Noticia.FechaPublicacion" type="datetime-local" placeholder="Fecha de publicación">
+        </div>
+        <button type="submit">Publicar</button>
+    </form>
+</div>

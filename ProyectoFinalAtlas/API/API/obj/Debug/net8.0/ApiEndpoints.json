@@ -97,7 +97,7 @@
     "ContainingType": "API.Controllers.NoticiaController",
     "Method": "EliminarNoticiaPorID",
     "RelativePath": "api/Noticia/EliminarNoticiaPorID/{IDNoticia}",
-    "HttpMethod": "DELETE",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

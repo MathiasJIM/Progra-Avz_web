@@ -60,7 +60,7 @@ namespace API.Controllers
             return Ok(await _NoticiaBW.EliminarNoticiasPorUsuario(IDNoticia));
         }
 
-        [HttpDelete]
+        [HttpPost]
         [Route("EliminarNoticiaPorID/{IDNoticia}")]
         public async Task<IActionResult> EliminarNoticiaPorID(Guid IDNoticia)
         {

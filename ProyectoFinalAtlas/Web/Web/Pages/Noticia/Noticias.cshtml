@@ -1,0 +1,33 @@
+﻿@page
+@model Web.Pages.Noticia.NoticiasModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Noticias";
+}
+
+@if (User.IsInRole("1") || User.IsInRole("2"))
+{
+
+    <div class="d-flex justify-content-center">
+        <a class="btn btn-dark" asp-page="/Noticia/MisNoticias">Mis Noticias</a>
+    </div>
+
+}
+
+<div class="container">
+    @foreach (var noticia in Model.Noticias)
+    {
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <img src="@noticia.imagen" class="img-fluid" alt="Imagen de la noticia">
+            </div>
+            <div class="col-md-8">
+                <h3>@noticia.Titulo</h3>
+                <p class="text-muted">@noticia.FechaPublicacion.ToString("dd/MM/yyyy")</p>
+                <p>@noticia.Descripcion</p>
+                <a href="/Noticia/Detalle/@noticia.ID" class="btn btn-primary">Leer más</a>
+            </div>
+        </div>
+        <hr>
+    }
+</div>

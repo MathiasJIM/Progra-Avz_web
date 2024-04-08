@@ -38,6 +38,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Noticia/EditarNoticia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYVxFZGl0YXJOb3RpY2lhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Noticia/MisNoticias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYVxNaXNOb3RpY2lhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Noticia/Noticias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYVxOb3RpY2lhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Noticia/PublicarNoticia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYVxQdWJsaWNhck5vdGljaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Perfil/ActualizarPerfil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyZmlsXEFjdHVhbGl6YXJQZXJmaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

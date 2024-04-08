@@ -1,0 +1,31 @@
+﻿@page "/EditarNoticia/{IDNoticia:guid}"
+@model Web.Pages.Noticia.EditarNoticiaModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Editar Noticia";
+}
+
+<h2>Editar Noticia</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Noticia.ID" />
+    <input type="hidden" asp-for="Noticia.IDUsuarioPublico" />
+    <input type="hidden" asp-for="Noticia.imagen" />
+    <input type="hidden" asp-for="Noticia.FechaPublicacion" />
+    <div class="mb-3">
+        <label asp-for="Noticia.Titulo" class="form-label">Titulo</label>
+        <input asp-for="Noticia.Titulo" class="form-control" />
+        <span asp-validation-for="Noticia.Titulo" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Noticia.Descripcion" class="form-label">Descripcion</label>
+        <textarea asp-for="Noticia.Descripcion" class="form-control"></textarea>
+        <span asp-validation-for="Noticia.Descripcion" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label for="FotoNoticia">Foto de Perfil</label>
+        <input type="file" class="form-control-file" id="FotoNoticia" name="FotoNoticia" accept="image/png, image/jpeg">
+        <span asp-validation-for="FotoNoticia" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+</form>

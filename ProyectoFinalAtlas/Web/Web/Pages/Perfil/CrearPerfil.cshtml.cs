@@ -45,7 +45,7 @@ namespace Web.Pages.Perfil
                 if (FotoPerfil != null)
                 {
                     var fileName = $"{Perfil.Nombre}_foto";
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "Perfiles", fileName);
 
                     using (var stream = System.IO.File.Create(filePath))
                     {
