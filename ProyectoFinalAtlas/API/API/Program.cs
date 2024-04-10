@@ -61,6 +61,9 @@ namespace API
             builder.Services.AddScoped<INoticiaBW, NoticiaBW>();
             builder.Services.AddScoped<INoticiaDA, NoticiaDA>();
 
+            builder.Services.AddScoped<IEventoBW, EventoBW>();
+            builder.Services.AddScoped<IEventoDA, EventoDA>();
+
 
 
 
