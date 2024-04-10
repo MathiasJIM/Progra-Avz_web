@@ -30,6 +30,7 @@ namespace API.Controllers
             return Ok(await _UsuarioBW.RegistrarUsuario(usuario));
         }
 
+        //hay que agregar los authorize
         [HttpPut]
         [Route("ActualizarUsuario/{id}")]
         public async Task<IActionResult> ActualizarUsuarioPorId(Guid id, [FromBody] Abstracciones.Models.ActualizarUsuario usuario)
