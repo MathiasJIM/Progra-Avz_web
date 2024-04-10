@@ -1,0 +1,87 @@
+﻿@page
+@model Web.Pages.Eventos.CalendarioModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Calendario de Eventos";
+}
+<style>
+    .fc-event, .fc-event-dot {
+        background-color: #AED9E0;
+    }
+
+        .fc-event:hover, .fc-event-dot:hover {
+            background-color: #77BEC4;
+        }
+
+    #calendar {
+        max-width: 1000px; 
+    }
+
+    
+    .fc-today-button {
+        background-color: #4CAF50;
+        color: white; 
+        border-color: #4CAF50; 
+    }
+
+    .fc-prev-button, .fc-next-button {
+        background-color: #2196F3; 
+        color: white;
+        border-color: #2196F3;
+    }
+
+
+    .fc-today-button:hover {
+        background-color: #45A049;
+    }
+
+    .fc-prev-button:hover, .fc-next-button:hover {
+        background-color: #1E88E5;
+    }
+</style>
+
+<div class="contenido-principal mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <div id="calendar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var eventosData = @Html.Raw(Json.Serialize(Model.Evento));
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            locale: 'es',
+            initialView: 'dayGridMonth',
+            buttonText: {
+                today: 'Hoy'
+            },
+            events: eventosData.map(function (evento) {
+                return {
+                    title: evento.titulo,
+                    start: evento.fechaHoraInicio,
+                    end: evento.fechaHoraFinal,
+                    color: '#AED9E0', // Color celeste pastel
+                    textColor: 'black',
+                    description: evento.descripcion
+                };
+            }),
+            eventClick: function (info) {
+                Swal.fire({ // Utilizando SweetAlert para mostrar la información del evento
+                    title: info.event.title,
+                    text: 'Descripción: ' + info.event.extendedProps.description,
+                    icon: 'info',
+                    confirmButtonText: 'Cerrar'
+                });
+            }
+        });
+
+        calendar.render();
+    });
+</script>
