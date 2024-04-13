@@ -26,12 +26,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNvXExvZ291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Acceso/ReestablecerContrasena.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNvXFJlZXN0YWJsZWNlckNvbnRyYXNlbmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Acceso/Registro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNvXFJlZ2lzdHJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Eventos/Calendario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvc1xDYWxlbmRhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mathias/OneDrive/Escritorio/PAA/GrupoAtlas-Proyecto/ProyectoFinalAtlas/Web/Web/Pages/Index.cshtml]

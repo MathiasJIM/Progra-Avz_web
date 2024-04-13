@@ -35,6 +35,7 @@ namespace Web.Pages.Acceso
 
             try
             {
+                Usuario.ContrasenaTemporal = Usuario.ContrasenaHash;
                 var Hash = Password.GenerarHash(Usuario.ContrasenaHash);
                 var HashC = Password.GenerarHash(Usuario.ConfirmarContrasena);
                 Usuario.ContrasenaHash = Password.ObtenerHash(Hash);

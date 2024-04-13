@@ -52,6 +52,37 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API.Controllers.EventoController",
+    "Method": "PostAsync",
+    "RelativePath": "api/Evento/CrearEvento/{IdUsuario}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evento",
+        "Type": "Abstracciones.Models.Evento",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EventoController",
+    "Method": "MostrarNoticias",
+    "RelativePath": "api/Evento/MostrarEventos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.NoticiaController",
     "Method": "ActualizarNoticiaPorID",
     "RelativePath": "api/Noticia/ActualizarNoticiaPorID/{IDNoticia}",

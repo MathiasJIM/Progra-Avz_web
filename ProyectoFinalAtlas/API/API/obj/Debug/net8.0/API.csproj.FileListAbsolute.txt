@@ -175,3 +175,6 @@ C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\API\API\obj\Debug\net8.0\API.pdb
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\API\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\API\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\API\API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\API\API\bin\Debug\net8.0\MailKit.dll
+C:\Users\Mathias\OneDrive\Escritorio\PAA\GrupoAtlas-Proyecto\ProyectoFinalAtlas\API\API\bin\Debug\net8.0\MimeKit.dll

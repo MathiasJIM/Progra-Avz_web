@@ -17,6 +17,9 @@ namespace Abstracciones.Models
         [Compare("ContrasenaHash", ErrorMessage = "Las contraseñas no coinciden")]
         public string ConfirmarContrasena { get; set; }
 
+        public string ContrasenaTemporal { get; set; }
+
+
         [Required(ErrorMessage = "El rol es requerido")]
         public int IDRol { get; set; }
     }
