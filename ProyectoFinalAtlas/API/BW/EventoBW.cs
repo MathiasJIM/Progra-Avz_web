@@ -27,5 +27,23 @@ namespace BW
         {
             return await _eventoDA.MostrarEventos();
         }
+
+        public async Task<int> ActualizarEventoID(Guid IDEvento, Abstracciones.Models.Evento evento)
+        {
+            return await _eventoDA.ActualizarEventoID(IDEvento, evento);
+        }
+        public async Task<Abstracciones.Models.Evento> EliminarEventoPorID(Guid IDEvento)
+        {
+            return await _eventoDA.EliminarEventoPorID(IDEvento);
+        }
+        public async Task<Abstracciones.Models.Evento> ObtenerNoticiaPorID(Guid IDEvento)
+        {
+            return await _eventoDA.ObtenerNoticiaPorID(IDEvento);
+        }
+
+        public async Task<IEnumerable<Abstracciones.Models.Evento>> ObtenereEventosPorUsuario(Guid IDUsuario)
+        {
+            return await _eventoDA.ObtenereEventosPorUsuario(IDUsuario);
+        }
     }
 }

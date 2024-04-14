@@ -10,5 +10,12 @@ namespace Abstracciones.BW
     {
         Task<Guid> CrearEvento(Abstracciones.Models.Evento evento, Guid IdUsuario);
         Task<IEnumerable<Abstracciones.Models.Evento>> MostrarEventos();
+
+        Task<int> ActualizarEventoID(Guid IDEvento, Abstracciones.Models.Evento evento);
+        Task<Abstracciones.Models.Evento> EliminarEventoPorID(Guid IDEvento);
+        Task<Abstracciones.Models.Evento> ObtenerNoticiaPorID(Guid IDEvento);
+        Task<IEnumerable<Abstracciones.Models.Evento>> ObtenereEventosPorUsuario(Guid IDUsuario);
+
+
     }
 }

@@ -3,84 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\acceso\\registro.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\acceso\\registro.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\eventos\\crearevento.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\eventos\\crearevento.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\abtracciones\\modelos\\registrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\registrousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\acceso\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\acceso\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\editarnoticia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\editarnoticia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\editarnoticia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\editarnoticia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\perfil\\actualizarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\perfil\\actualizarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\misnoticias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\misnoticias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\perfil\\actualizarperfil.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\perfil\\actualizarperfil.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\eventos\\actualizarevento.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\eventos\\actualizarevento.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\misnoticias.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\misnoticias.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\noticias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\noticias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\editarnoticia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\editarnoticia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\publicarnoticia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\publicarnoticia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\noticias.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\noticias.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\editarnoticia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\editarnoticia.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\publicarnoticia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\publicarnoticia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\eventos\\miseventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\eventos\\miseventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\eventos\\miseventos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\eventos\\miseventos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\noticia\\misnoticias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\noticia\\misnoticias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\eventos\\actualizarevento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\eventos\\actualizarevento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\eventos\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\eventos\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\abtracciones\\modelos\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\eventos\\crearevento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\eventos\\crearevento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\perfil\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\perfil\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\usuario\\usuariosadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\usuario\\usuariosadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\perfil\\perfil.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\perfil\\perfil.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\abtracciones\\modelos\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\web\\pages\\perfil\\crearperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{815AD2E6-8FB2-471B-8075-94889EE3E5B6}|Web\\Web.csproj|solutionrelative:web\\pages\\perfil\\crearperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\web\\abtracciones\\modelos\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4181A3-B061-49F0-8B9A-0BC64BA21BE2}|Abtracciones\\Abstracciones.csproj|solutionrelative:abtracciones\\modelos\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -125,253 +105,198 @@
               "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegistroUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\RegistroUsuario.cs",
-              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\RegistroUsuario.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\RegistroUsuario.cs",
-              "RelativeToolTip": "Abtracciones\\Modelos\\RegistroUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T03:30:35.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Registro.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Registro.cshtml.cs",
-              "RelativeDocumentMoniker": "Web\\Pages\\Acceso\\Registro.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Registro.cshtml.cs",
-              "RelativeToolTip": "Web\\Pages\\Acceso\\Registro.cshtml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwEAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T03:29:41.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Registro.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Registro.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Acceso\\Registro.cshtml",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Acceso\\Registro.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Acceso\\Registro.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T03:29:39.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "EditarNoticia.cshtml",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\EditarNoticia.cshtml",
               "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\EditarNoticia.cshtml",
               "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\EditarNoticia.cshtml",
               "RelativeToolTip": "Web\\Pages\\Noticia\\EditarNoticia.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T02:36:27.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ActualizarPerfil.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\ActualizarPerfil.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Perfil\\ActualizarPerfil.cshtml",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\ActualizarPerfil.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Perfil\\ActualizarPerfil.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T02:23:33.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditarNoticia.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\EditarNoticia.cshtml.cs",
-              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\EditarNoticia.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\EditarNoticia.cshtml.cs",
-              "RelativeToolTip": "Web\\Pages\\Noticia\\EditarNoticia.cshtml.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAwC0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T02:03:58.079Z",
+              "WhenOpened": "2024-04-14T01:33:41.928Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MisNoticias.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\MisNoticias.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\MisNoticias.cshtml",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\MisNoticias.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Noticia\\MisNoticias.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T01:14:47.159Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "MisNoticias.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\MisNoticias.cshtml.cs",
-              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\MisNoticias.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\MisNoticias.cshtml.cs",
-              "RelativeToolTip": "Web\\Pages\\Noticia\\MisNoticias.cshtml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAzwDoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T00:37:57.073Z",
+              "Title": "ActualizarEvento.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\ActualizarEvento.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Eventos\\ActualizarEvento.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\ActualizarEvento.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Eventos\\ActualizarEvento.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T01:21:12.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ActualizarPerfil.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\ActualizarPerfil.cshtml.cs",
-              "RelativeDocumentMoniker": "Web\\Pages\\Perfil\\ActualizarPerfil.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\ActualizarPerfil.cshtml.cs",
-              "RelativeToolTip": "Web\\Pages\\Perfil\\ActualizarPerfil.cshtml.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAgwG4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T21:26:29.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Noticias.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\Noticias.cshtml.cs",
-              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\Noticias.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\Noticias.cshtml.cs",
-              "RelativeToolTip": "Web\\Pages\\Noticia\\Noticias.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T21:02:36.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Perfil.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\Perfil.cshtml.cs",
-              "RelativeDocumentMoniker": "Web\\Pages\\Perfil\\Perfil.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\Perfil.cshtml.cs",
-              "RelativeToolTip": "Web\\Pages\\Perfil\\Perfil.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T21:02:22.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Perfil.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\Perfil.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Perfil\\Perfil.cshtml",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\Perfil.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Perfil\\Perfil.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T21:02:19.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Noticias.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\Noticias.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\Noticias.cshtml",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\Noticias.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Noticia\\Noticias.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T20:54:20.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PublicarNoticia.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\PublicarNoticia.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\PublicarNoticia.cshtml",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\PublicarNoticia.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Noticia\\PublicarNoticia.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T20:49:46.216Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "PublicarNoticia.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\PublicarNoticia.cshtml.cs",
-              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\PublicarNoticia.cshtml.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\PublicarNoticia.cshtml.cs",
-              "RelativeToolTip": "Web\\Pages\\Noticia\\PublicarNoticia.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T20:38:34.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Noticia.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Noticia.cs",
-              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\Noticia.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Noticia.cs",
-              "RelativeToolTip": "Abtracciones\\Modelos\\Noticia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T20:33:52.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CrearPerfil.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\CrearPerfil.cshtml",
-              "RelativeDocumentMoniker": "Web\\Pages\\Perfil\\CrearPerfil.cshtml",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Perfil\\CrearPerfil.cshtml",
-              "RelativeToolTip": "Web\\Pages\\Perfil\\CrearPerfil.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T02:59:49.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "_DashboardLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Shared\\_DashboardLayout.cshtml",
               "RelativeDocumentMoniker": "Web\\Pages\\Shared\\_DashboardLayout.cshtml",
               "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Shared\\_DashboardLayout.cshtml",
               "RelativeToolTip": "Web\\Pages\\Shared\\_DashboardLayout.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAeAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAEEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-04T22:31:28.28Z"
+              "WhenOpened": "2024-04-14T01:12:29.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "UsuariosAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Usuario\\UsuariosAdmin.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Usuario\\UsuariosAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Usuario\\UsuariosAdmin.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Usuario\\UsuariosAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T00:53:39.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Calendario.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\Calendario.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Eventos\\Calendario.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\Calendario.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Eventos\\Calendario.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T00:48:04.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrearEvento.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\CrearEvento.cshtml.cs",
+              "RelativeDocumentMoniker": "Web\\Pages\\Eventos\\CrearEvento.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\CrearEvento.cshtml.cs",
+              "RelativeToolTip": "Web\\Pages\\Eventos\\CrearEvento.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T00:45:41.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CrearEvento.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\CrearEvento.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Eventos\\CrearEvento.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\CrearEvento.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Eventos\\CrearEvento.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T00:43:13.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Evento.cs",
+              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\Evento.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Evento.cs",
+              "RelativeToolTip": "Abtracciones\\Modelos\\Evento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T00:33:40.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActualizarEvento.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\ActualizarEvento.cshtml.cs",
+              "RelativeDocumentMoniker": "Web\\Pages\\Eventos\\ActualizarEvento.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\ActualizarEvento.cshtml.cs",
+              "RelativeToolTip": "Web\\Pages\\Eventos\\ActualizarEvento.cshtml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wDQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T00:33:00.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditarNoticia.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\EditarNoticia.cshtml.cs",
+              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\EditarNoticia.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\EditarNoticia.cshtml.cs",
+              "RelativeToolTip": "Web\\Pages\\Noticia\\EditarNoticia.cshtml.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAswDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T00:32:16.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\appsettings.json",
               "RelativeDocumentMoniker": "Web\\appsettings.json",
               "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\appsettings.json",
               "RelativeToolTip": "Web\\appsettings.json",
-              "ViewState": "AQIAABkAAAAAAAAAAIAwwDoAAAAnAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-04T22:12:57.447Z"
+              "WhenOpened": "2024-04-14T00:23:21.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Perfil.cs",
-              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Perfil.cs",
-              "RelativeDocumentMoniker": "Abtracciones\\Modelos\\Perfil.cs",
-              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Abtracciones\\Modelos\\Perfil.cs",
-              "RelativeToolTip": "Abtracciones\\Modelos\\Perfil.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "MisEventos.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\MisEventos.cshtml.cs",
+              "RelativeDocumentMoniker": "Web\\Pages\\Eventos\\MisEventos.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\MisEventos.cshtml.cs",
+              "RelativeToolTip": "Web\\Pages\\Eventos\\MisEventos.cshtml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowC8AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T22:11:41.246Z"
+              "WhenOpened": "2024-04-14T00:14:06.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MisNoticias.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\MisNoticias.cshtml.cs",
+              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\MisNoticias.cshtml.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\MisNoticias.cshtml.cs",
+              "RelativeToolTip": "Web\\Pages\\Noticia\\MisNoticias.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T00:13:48.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MisNoticias.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\MisNoticias.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Noticia\\MisNoticias.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Noticia\\MisNoticias.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Noticia\\MisNoticias.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T00:07:16.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MisEventos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\MisEventos.cshtml",
+              "RelativeDocumentMoniker": "Web\\Pages\\Eventos\\MisEventos.cshtml",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\Pages\\Eventos\\MisEventos.cshtml",
+              "RelativeToolTip": "Web\\Pages\\Eventos\\MisEventos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T00:04:06.489Z",
+              "EditorCaption": ""
             }
           ]
         }

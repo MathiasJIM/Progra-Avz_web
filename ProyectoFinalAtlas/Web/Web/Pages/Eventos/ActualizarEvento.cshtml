@@ -1,0 +1,47 @@
+﻿@page
+@model Web.Pages.Eventos.ActualizarEventoModel
+@{
+    ViewData["Title"] = "Actualizar Evento";
+}
+
+<h1>Actualizar Evento</h1>
+
+@if (!String.IsNullOrEmpty(Model.Mensaje))
+{
+    <div class="alert alert-info">
+        @Model.Mensaje
+    </div>
+}
+
+<form method="post">
+    <input type="hidden" name="ID" value="@Model.Evento.ID" />
+    <div class="form-group">
+        <label for="titulo">Título</label>
+        <input type="text" class="form-control" id="titulo" name="Titulo" value="@Model.Evento.Titulo" required>
+    </div>
+    <div class="form-group">
+        <label for="descripcion">Descripción</label>
+        <textarea class="form-control" id="descripcion" name="Descripcion">@Model.Evento.Descripcion</textarea>
+    </div>
+    <div class="form-group">
+        <label for="fechaHoraInicio">Fecha y Hora de Inicio</label>
+        <input type="datetime-local" class="form-control" id="fechaHoraInicio" name="FechaHoraInicio" value="@Model.Evento.FechaHoraInicio" required>
+    </div>
+    <div class="form-group">
+        <label for="duracion">Duración (en horas)</label>
+        <input type="number" class="form-control" id="duracion" name="Duracion" value="@Model.Evento.Duracion">
+    </div>
+    <div class="form-group">
+        <label for="ubicacion">Ubicación</label>
+        <input type="text" class="form-control" id="ubicacion" name="Ubicacion" value="@Model.Evento.Ubicacion">
+    </div>
+    <div class="form-group">
+        <label for="tipoEvento">Tipo de Evento</label>
+        <input type="text" class="form-control" id="tipoEvento" name="TipoEvento" value="@Model.Evento.TipoEvento">
+    </div>
+    <div class="form-group">
+        <label for="concurrencia">Concurrencia</label>
+        <input type="number" class="form-control" id="concurrencia" name="Concurrencia" value="@Model.Evento.Concurrencia">
+    </div>
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+</form>

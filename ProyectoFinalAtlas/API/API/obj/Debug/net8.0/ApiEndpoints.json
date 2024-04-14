@@ -53,6 +53,27 @@
   },
   {
     "ContainingType": "API.Controllers.EventoController",
+    "Method": "ActualizarNoticiaPorID",
+    "RelativePath": "api/Evento/ActualizarEventoPorID/{IDEvento}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDEvento",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "evento",
+        "Type": "Abstracciones.Models.Evento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EventoController",
     "Method": "PostAsync",
     "RelativePath": "api/Evento/CrearEvento/{IdUsuario}",
     "HttpMethod": "POST",
@@ -74,12 +95,60 @@
   },
   {
     "ContainingType": "API.Controllers.EventoController",
+    "Method": "EliminarNoticiaPorID",
+    "RelativePath": "api/Evento/EliminarEventoPorID/{IDEvento}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDEvento",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EventoController",
     "Method": "MostrarNoticias",
     "RelativePath": "api/Evento/MostrarEventos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EventoController",
+    "Method": "ObtenerNoticiaPorID",
+    "RelativePath": "api/Evento/ObtenerEventoPorID/{IDEvento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDEvento",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EventoController",
+    "Method": "ObtenerNoticiasPorUsuario",
+    "RelativePath": "api/Evento/ObtenerEventoPorUsuario/{IDUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

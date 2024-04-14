@@ -1,4 +1,5 @@
 ﻿using Abstracciones.BW;
+using Abstracciones.Models;
 using BW;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -30,6 +31,35 @@ namespace API.Controllers
         public async Task<IActionResult> MostrarNoticias()
         {
             return Ok(await _EventoBW.MostrarEventos());
+        }
+
+        [HttpGet]
+        [Route("ObtenerEventoPorID/{IDEvento}")]
+        public async Task<IActionResult> ObtenerNoticiaPorID(Guid IDEvento)
+        {
+            return Ok(await _EventoBW.ObtenerNoticiaPorID(IDEvento));
+        }
+
+        [HttpPut]
+        [Route("ActualizarEventoPorID/{IDEvento}")]
+        public async Task<IActionResult> ActualizarNoticiaPorID(Guid IDEvento, [FromBody] Evento evento)
+        {
+            return Ok(await _EventoBW.ActualizarEventoID(IDEvento, evento));
+        }
+
+        [HttpPost]
+        [Route("EliminarEventoPorID/{IDEvento}")]
+        public async Task<IActionResult> EliminarNoticiaPorID(Guid IDEvento)
+        {
+            await _EventoBW.EliminarEventoPorID(IDEvento);
+            return Ok("Evento eliminado con exito!");
+        }
+
+        [HttpGet]
+        [Route("ObtenerEventoPorUsuario/{IDUsuario}")]
+        public async Task<IActionResult> ObtenerNoticiasPorUsuario(Guid IDUsuario)
+        {
+            return Ok(await _EventoBW.ObtenereEventosPorUsuario(IDUsuario));
         }
     }
 }
