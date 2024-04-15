@@ -1,0 +1,80 @@
+﻿@page
+@model Web.Pages.Recurso.RecursosModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Recursos de Entrenamiento";
+}
+
+@if (User.IsInRole("1") || User.IsInRole("2"))
+{
+
+    <div class="d-flex justify-content-center">
+        <a class="btn btn-dark" asp-page="/Recurso/CrearRecurso">Subir Recursos</a>
+    </div>
+
+
+    <div class="d-flex justify-content-center">
+        <a class="btn btn-dark" asp-page="/Recurso/MisRecursos">Mis Recursos</a>
+    </div>
+
+}
+
+<div class="container">
+    <div class="row">
+        <!-- Calentamiento o Estiramiento -->
+        <div class="col-md-6 mb-4">
+            <div class="card mb-3">
+                <img src="~/images/Recursos/calentamiento.jpg" class="card-img-top" alt="Calentamiento o Estiramiento">
+                <div class="card-body">
+                    <h5 class="card-title">Calentamiento o Estiramiento</h5>
+                    <p class="card-text">Encuentra las mejores prácticas para comenzar tu entrenamiento.</p>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos" asp-route-tipo="Calentamiento o Estiramiento">Ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nutrición Deportiva -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Nutrición Deportiva</h5>
+                    <p class="card-text">Aprende sobre la dieta adecuada para optimizar tu rendimiento deportivo.</p>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos" asp-route-tipo="Nutrición Deportiva">Ver</a>
+                    </div>
+                </div>
+                <img src="~/images/Recursos/nutricion.jpg" class="card-img-bottom" alt="Nutrición Deportiva">
+            </div>
+        </div>
+
+        <!-- Análisis de Técnica -->
+        <div class="col-md-6 mb-4">
+            <div class="card mb-3">
+                <img src="~/images/Recursos/analisis.jpg" class="card-img-top" alt="Análisis de Técnica">
+                <div class="card-body">
+                    <h5 class="card-title">Análisis de Técnica</h5>
+                    <p class="card-text">Mejora tu técnica con nuestros análisis detallados.</p>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos">Ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rutinas de Entrenamiento -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Rutinas de Entrenamiento</h5>
+                    <p class="card-text">Descubre rutinas de entrenamiento efectivas para mejorar tu forma física.</p>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos">Ver</a>
+                    </div>
+                </div>
+                <img src="~/images/Recursos/rutinas.jpg" class="card-img-bottom" alt="Rutinas de Entrenamiento">
+            </div>
+        </div>
+    </div>
+</div>

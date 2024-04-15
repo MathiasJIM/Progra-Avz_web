@@ -331,6 +331,106 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API.Controllers.RecursoController",
+    "Method": "ActualizarNoticiaPorID",
+    "RelativePath": "api/Recurso/ActualizarRecursoID/{IDRecurso}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDRecurso",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "recurso",
+        "Type": "Abstracciones.Models.Recurso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.RecursoController",
+    "Method": "PostAsync",
+    "RelativePath": "api/Recurso/CrearRecurso/{IdUsuario}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recurso",
+        "Type": "Abstracciones.Models.Recurso",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.RecursoController",
+    "Method": "EliminarNoticiaPorID",
+    "RelativePath": "api/Recurso/EliminarRecursoPorID/{IDRecurso}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDRecurso",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.RecursoController",
+    "Method": "MostrarNoticias",
+    "RelativePath": "api/Recurso/MostrarRecursos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.RecursoController",
+    "Method": "ObtenerNoticiasPorUsuario",
+    "RelativePath": "api/Recurso/ObtenereRecursosPorUsuario/{IDUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.RecursoController",
+    "Method": "ObtenerNoticiaPorID",
+    "RelativePath": "api/Recurso/ObtenerRecursoPorID/{IDRecurso}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDRecurso",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.UsuarioController",
     "Method": "ActualizarUsuarioPorId",
     "RelativePath": "api/Usuario/ActualizarUsuario/{id}",

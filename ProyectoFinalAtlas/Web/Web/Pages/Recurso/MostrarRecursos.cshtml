@@ -1,0 +1,52 @@
+﻿@page "{tipo?}"
+@model Web.Pages.Recurso.MostrarRecursosModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Lista de Recursos";
+}
+
+<h1 class="text-center my-4">Recursos Disponibles</h1>
+
+<div class="container">
+    <div class="row">
+        @foreach (var recurso in Model.Recurso.Where(r => r.TipoRecurso == Model.Tipo))
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@recurso.Titulo</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Tipo: @recurso.TipoRecurso</h6>
+                        <p class="card-text">@recurso.Descripcion</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                Nivel:
+                                @switch (recurso.IDNivel)
+                                {
+                                    case 1:
+                                        <text>Principiante</text>
+                                        break;
+                                    case 2:
+                                        <text>Medio</text>
+                                        break;
+                                    case 3:
+                                        <text>Avanzado</text>
+                                        break;
+                                    default:
+                                        <text>Desconocido</text>
+                                        break;
+                                }
+                            </small>
+                        </p>
+                        @if (!string.IsNullOrEmpty(recurso.LinkRefuerzo))
+                        {
+                            <a href="@recurso.LinkRefuerzo" target="_blank" class="card-link">Refuerzo</a>
+                        }
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Última actualización @recurso.FechaCreacion</small>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

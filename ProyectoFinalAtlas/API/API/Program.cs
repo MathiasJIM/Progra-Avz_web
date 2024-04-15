@@ -64,6 +64,9 @@ namespace API
             builder.Services.AddScoped<IEventoBW, EventoBW>();
             builder.Services.AddScoped<IEventoDA, EventoDA>();
 
+            builder.Services.AddScoped<IRecursoBW, RecursoBW>();
+            builder.Services.AddScoped<IRecursoDA, RecursoDA>();
+
 
 
 
