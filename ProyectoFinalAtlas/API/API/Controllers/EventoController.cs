@@ -35,9 +35,9 @@ namespace API.Controllers
 
         [HttpGet]
         [Route("ObtenerEventoPorID/{IDEvento}")]
-        public async Task<IActionResult> ObtenerNoticiaPorID(Guid IDEvento)
+        public async Task<IActionResult> ObtenerEventoPorID(Guid IDEvento)
         {
-            return Ok(await _EventoBW.ObtenerNoticiaPorID(IDEvento));
+            return Ok(await _EventoBW.ObtenerEventoPorID(IDEvento));
         }
 
         [HttpPut]
@@ -60,6 +60,38 @@ namespace API.Controllers
         public async Task<IActionResult> ObtenerNoticiasPorUsuario(Guid IDUsuario)
         {
             return Ok(await _EventoBW.ObtenereEventosPorUsuario(IDUsuario));
+        }
+
+
+        [HttpPost]
+        [Route("AnadirAsistencia")]
+        public async Task<IActionResult> PostAsync([FromBody] DatosAsistencia datos)
+        {
+            await _EventoBW.AddAsistencia(datos.IDEvento, datos.IdUsuario);
+            return Ok("Asistente Añadido");
+        }
+
+        [HttpPost]
+        [Route("EliminarAsistencia/{IDEvento}")]
+        public async Task<IActionResult> EliminarAsistencia(Guid IDEvento, Guid IdUsuario)
+        {
+            await _EventoBW.EliminarAsistenciaPorID(IDEvento, IdUsuario);
+            return Ok("Asistencia eliminada con exito!");
+        }
+
+
+        [HttpGet]
+        [Route("ObtenerAsistentesPorIdEvento/{IDEvento}")]
+        public async Task<IActionResult> ObtenerAsistentesPorIdEvento(Guid IDEvento)
+        {
+            return Ok(await _EventoBW.ObtenerAsistentesPorIdEvento(IDEvento));
+        }
+
+        [HttpGet]
+        [Route("VerificarAsistencia/{IDEvento}/{IdUsuario}")]
+        public async Task<IActionResult> VerificarAsistencia(Guid IDEvento, Guid IdUsuario)
+        {
+            return Ok(await _EventoBW.VerificarAsistencia(IDEvento, IdUsuario));
         }
     }
 }

@@ -1,0 +1,35 @@
+﻿@page
+@model Web.Pages.Eventos.EventoAsistentesModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Asistentes del Evento";
+}
+
+<h2>Asistentes del Evento</h2>
+
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Foto</th>
+                <th>Nombre Completo</th>
+                <th>Correo Electrónico</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var asistente in Model.Asistentes)
+            {
+                <tr>
+                    <td>
+                        <img src="@(!string.IsNullOrEmpty(asistente.FotoPerfil) ? asistente.FotoPerfil : Url.Content("/images/Perfiles/fotodefault.png"))"
+                             class="img-fluid"
+                             alt="Foto de perfil"
+                             style="width: 100px; height: 100px; object-fit: cover;">
+                    </td>
+                    <td>@asistente.NombreCompleto</td>
+                    <td>@asistente.CorreoElectronico</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

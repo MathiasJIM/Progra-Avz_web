@@ -16,7 +16,7 @@
             <th>Duración (horas)</th>
             <th>Ubicación</th>
             <th>Tipo de Evento</th>
-            <th>Concurrencia</th>
+            <th>Asistentes</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -30,7 +30,11 @@
                 <td>@evento.Duracion</td>
                 <td>@evento.Ubicacion</td>
                 <td>@evento.TipoEvento</td>
-                <td>@evento.Concurrencia</td>
+                <td>
+                    <a asp-page="/Eventos/EventoAsistentes" asp-route-IDEvento="@evento.ID" class="btn btn-primary">
+                        <i class="fas fa-edit">Asistentes</i>
+                    </a>
+                </td>
                 <td>
                     <a asp-page="/Eventos/ActualizarEvento" asp-route-IDEvento="@evento.ID" class="btn btn-primary">
                         <i class="fas fa-edit">Editar</i>

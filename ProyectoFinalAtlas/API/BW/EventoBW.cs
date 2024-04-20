@@ -1,5 +1,6 @@
 ﻿using Abstracciones.BW;
 using Abstracciones.DA;
+using Abstracciones.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,14 +37,35 @@ namespace BW
         {
             return await _eventoDA.EliminarEventoPorID(IDEvento);
         }
-        public async Task<Abstracciones.Models.Evento> ObtenerNoticiaPorID(Guid IDEvento)
+        public async Task<Abstracciones.Models.Evento> ObtenerEventoPorID(Guid IDEvento)
         {
-            return await _eventoDA.ObtenerNoticiaPorID(IDEvento);
+            return await _eventoDA.ObtenerEventoPorID(IDEvento);
         }
 
         public async Task<IEnumerable<Abstracciones.Models.Evento>> ObtenereEventosPorUsuario(Guid IDUsuario)
         {
             return await _eventoDA.ObtenereEventosPorUsuario(IDUsuario);
+        }
+
+        public async Task<Guid> AddAsistencia(Guid IDEvento, Guid IdUsuario)
+        {
+            return await _eventoDA.AddAsistencia(IDEvento, IdUsuario);
+        }
+
+        public async Task<IEnumerable<UsuarioAsistente>> ObtenerAsistentesPorIdEvento(Guid IDEvento)
+        {
+            return await _eventoDA.ObtenerAsistentesPorIdEvento(IDEvento);
+        }
+
+        public async Task<Evento> EliminarAsistenciaPorID(Guid IDEvento, Guid IdUsuario)
+        {
+            return await _eventoDA.EliminarAsistenciaPorID(IDEvento, IdUsuario);
+        }
+
+
+        public async Task<int> VerificarAsistencia(Guid IDEvento, Guid IdUsuario)
+        {
+            return await _eventoDA.VerificarAsistencia(IDEvento, IdUsuario);
         }
     }
 }

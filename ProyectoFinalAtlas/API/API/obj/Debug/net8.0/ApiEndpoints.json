@@ -75,6 +75,22 @@
   {
     "ContainingType": "API.Controllers.EventoController",
     "Method": "PostAsync",
+    "RelativePath": "api/Evento/AnadirAsistencia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "datos",
+        "Type": "Abstracciones.Models.DatosAsistencia",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EventoController",
+    "Method": "PostAsync",
     "RelativePath": "api/Evento/CrearEvento/{IdUsuario}",
     "HttpMethod": "POST",
     "IsController": true,
@@ -89,6 +105,27 @@
         "Name": "IdUsuario",
         "Type": "System.Guid",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EventoController",
+    "Method": "EliminarAsistencia",
+    "RelativePath": "api/Evento/EliminarAsistencia/{IDEvento}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDEvento",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -121,7 +158,23 @@
   },
   {
     "ContainingType": "API.Controllers.EventoController",
-    "Method": "ObtenerNoticiaPorID",
+    "Method": "ObtenerAsistentesPorIdEvento",
+    "RelativePath": "api/Evento/ObtenerAsistentesPorIdEvento/{IDEvento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDEvento",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EventoController",
+    "Method": "ObtenerEventoPorID",
     "RelativePath": "api/Evento/ObtenerEventoPorID/{IDEvento}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -145,6 +198,27 @@
     "Parameters": [
       {
         "Name": "IDUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.EventoController",
+    "Method": "VerificarAsistencia",
+    "RelativePath": "api/Evento/VerificarAsistencia/{IDEvento}/{IdUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IDEvento",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdUsuario",
         "Type": "System.Guid",
         "IsRequired": true
       }

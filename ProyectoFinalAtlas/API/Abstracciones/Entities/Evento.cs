@@ -23,8 +23,6 @@ namespace Abstracciones.Entities
 
         public string TipoEvento { get; set; }
 
-        public int? Concurrencia { get; set; }
-
         public Guid? IDUsuarioCreacion { get; set; }
 
         public DateTime? FechaHoraFinal { get; set; }

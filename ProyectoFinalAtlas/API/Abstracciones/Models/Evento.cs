@@ -24,7 +24,6 @@ namespace Abstracciones.Models
 
         public string TipoEvento { get; set; }
 
-        public int? Concurrencia { get; set; }
 
         public Guid? IDUsuarioCreacion { get; set; }
 

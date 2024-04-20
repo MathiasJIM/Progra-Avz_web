@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9tcpTS+mL+bmFUfdgAJUsHdMoJFKloB1ZVPSTCV8kXg=",
+  "Hash": "xbdxNUIFQkbjBGet2jZrxiL4UbdthFbJ0iVQIP16ya0=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -338,6 +338,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Perfiles\\Diego Rojas_foto.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Perfiles\\fotodefault.png",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "images/Perfiles/fotodefault.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Perfiles\\fotodefault.png"
     },
     {
       "Identity": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Perfiles\\Hasbun_foto.jpg",

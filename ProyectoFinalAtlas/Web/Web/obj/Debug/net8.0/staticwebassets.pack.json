@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\images\\Perfiles\\Mathias Jimenez_foto.png"
     },
     {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Perfiles\\fotodefault.png",
+      "PackagePath": "staticwebassets\\images\\Perfiles\\fotodefault.png"
+    },
+    {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Recursos\\analisis.jpg",
       "PackagePath": "staticwebassets\\images\\Recursos\\analisis.jpg"
     },

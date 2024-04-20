@@ -32,7 +32,6 @@ namespace DA
                 Duracion = evento.Duracion,
                 Ubicacion = evento.Ubicacion,
                 TipoEvento = evento.TipoEvento,
-                Concurrencia = evento.Concurrencia,
                 IDUsuarioCreacion = IdUsuario,
                 FechaHoraFinal = evento.FechaHoraFinal,
             });
@@ -51,7 +50,6 @@ namespace DA
                 Duracion = evento.Duracion,
                 Ubicacion = evento.Ubicacion,
                 TipoEvento = evento.TipoEvento,
-                Concurrencia = evento.Concurrencia,
                 FechaHoraFinal = evento.FechaHoraFinal,
             };
 
@@ -72,7 +70,7 @@ namespace DA
         }
 
 
-        public async Task<Abstracciones.Models.Evento> ObtenerNoticiaPorID(Guid IDEvento)
+        public async Task<Abstracciones.Models.Evento> ObtenerEventoPorID(Guid IDEvento)
         {
             string sql = "[spObtenerEventoPorID]";
             var parametros = new { ID = IDEvento };
@@ -90,6 +88,39 @@ namespace DA
             string sql = "[spObtenerEventosPorUsuario]";
             var parametros = new { IDUsuario = IDUsuario };
             return await _sqlConnection.QueryAsync<Abstracciones.Models.Evento>(sql, parametros);
+        }
+
+
+        public async Task<Guid> AddAsistencia(Guid IDEvento, Guid IdUsuario)
+        {
+            string sql = @"[AddAsistencia]";
+            var Consulta = await _sqlConnection.ExecuteScalarAsync<Guid>(sql, new
+            {
+                IDEvento = IDEvento,
+                IDUsuarioAsistente = IdUsuario
+            });
+            return Consulta;
+        }
+
+        public async Task<IEnumerable<Abstracciones.Models.UsuarioAsistente>> ObtenerAsistentesPorIdEvento(Guid IDEvento)
+        {
+            string sql = "[GetAsistentesPorEvento]";
+            var parametros = new { IDEvento = IDEvento };
+            return await _sqlConnection.QueryAsync<Abstracciones.Models.UsuarioAsistente>(sql, parametros);
+        }
+
+        public async Task<Abstracciones.Models.Evento> EliminarAsistenciaPorID(Guid IDEvento, Guid IdUsuario)
+        {
+            string sql = "[RemoveAsistencia]";
+            var parametros = new { IDEvento = IDEvento, IDUsuarioAsistente = IdUsuario };
+            return await _sqlConnection.QueryFirstOrDefaultAsync<Abstracciones.Models.Evento>(sql, parametros);
+        }
+
+        public async Task<int> VerificarAsistencia(Guid IDEvento, Guid IdUsuario)
+        {
+            string sql = "[sp_VerificarAsistencia]";
+            var parametros = new { IDEvento = IDEvento, IDUsuarioAsistente = IdUsuario };
+            return await _sqlConnection.QueryFirstOrDefaultAsync<int>(sql, parametros);
         }
     }
 }
