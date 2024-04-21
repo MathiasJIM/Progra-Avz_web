@@ -1,0 +1,103 @@
+﻿body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00796b
+}
+
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+    .login-form h2 {
+        color: #009688;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .login-form input {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .login-form button {
+        background-color: #009688;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .login-form button:hover {
+            background-color: #00796b;
+        }
+
+.register-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+/* Registro Estilo */
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+    .register-form h2 {
+        color: #009688;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .register-form input {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .register-form button {
+        background-color: #009688;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .register-form button:hover {
+            background-color: #00796b;
+        }
+
+.cancel-button {
+    background-color: #B0BEC5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    .cancel-button:hover {
+        background-color: #90A4AE;
+    }
