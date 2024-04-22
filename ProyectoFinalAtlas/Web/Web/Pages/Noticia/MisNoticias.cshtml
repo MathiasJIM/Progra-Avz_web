@@ -5,48 +5,71 @@
     ViewData["Title"] = "Mis Noticias";
 }
 
-<h2>Mis Noticias</h2>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="mb-4">Mis Noticias</h2>
+            @if (User.IsInRole("1") || User.IsInRole("2"))
+            {
+                <div class="mb-3">
+                    <a class="btn btn-primary" asp-page="/Noticia/PublicarNoticia"><i class="fas fa-plus-circle"></i> Publicar Noticia</a>
+                    <a class="btn btn-secondary" asp-page="/Noticia/Noticias"><i class="fas fa-plus-circle"></i>Volver</a>
+                </div>
+            }
 
-@if (User.IsInRole("1") || User.IsInRole("2"))
-{
+            <div class="table-responsive">
+                <table class="table table-hover table-striped shadow">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Título</th>
+                            <th>Descripción</th>
+                            <th>Fecha de Publicación</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var noticia in Model.Noticias)
+                        {
+                            <tr>
+                                <td>@noticia.Titulo</td>
+                                <td>@noticia.Descripcion</td>
+                                <td>@noticia.FechaPublicacion.ToString("dd/MM/yyyy")</td>
+                                <td>
+                                    <a asp-page="/Noticia/EditarNoticia" asp-route-IDNoticia="@noticia.ID" class="btn btn-primary btn-sm">
+                                        <i class="fas fa-edit"></i> Editar
+                                    </a>
+                                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteModal_@noticia.ID">
+                                        <i class="fas fa-trash"></i> Eliminar
+                                    </button>
 
-    <div class="d-flex justify-content-center">
-        <a class="btn btn-dark" asp-page="/Noticia/PublicarNoticia">Publicar Noticia</a>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="deleteModal_@noticia.ID" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="deleteModalLabel">Confirmar Eliminación</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    ¿Estás seguro que deseas eliminar la noticia: <strong>@noticia.Titulo</strong>?
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                                    <form method="post" asp-page-handler="Delete" asp-route-id="@noticia.ID">
+                                                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-
-}
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>Título</th>
-            <th>Descripción</th>
-            <th>Fecha de Publicación</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var noticia in Model.Noticias)
-        {
-            <tr>
-                <td>@noticia.Titulo</td>
-                <td>@noticia.Descripcion</td>
-                <td>@noticia.FechaPublicacion.ToString("dd/MM/yyyy")</td>
-                <td>
-                    <a asp-page="/Noticia/EditarNoticia" asp-route-IDNoticia="@noticia.ID" class="btn btn-primary">
-                        <i class="fas fa-edit">Editar</i>
-                    </a>
-                    <form method="post" asp-page-handler="Delete" asp-route-id="@noticia.ID">
-                        <button type="submit" class="btn btn-danger">
-                            <i class="fas fa-trash"></i> Eliminar
-                        </button>
-                    </form>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-
-
-
+</div>

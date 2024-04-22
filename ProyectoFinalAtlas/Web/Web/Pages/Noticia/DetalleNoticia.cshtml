@@ -1,0 +1,24 @@
+﻿@page "{IDNoticia:guid}"
+@model Web.Pages.Noticia.DetalleNoticiaModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Detalle de Noticia";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+            <div class="card mb-4 shadow">
+                <img src="@Model.Noticia.imagen" class="card-img-top" alt="Imagen de Noticia">
+                <div class="card-body">
+                    <h3 class="card-title">@Model.Noticia.Titulo</h3>
+                    <p class="card-text" style="font-size: 1.2rem;">@Model.Noticia.Descripcion</p>
+                    <p class="card-text"><small class="text-muted">Publicado el @Model.Noticia.FechaPublicacion.ToString("dddd, dd MMMM yyyy HH:mm")</small></p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a class="btn btn-secondary" asp-page="/Noticia/Noticias">Volver a Noticias</a>
+            </div>
+        </div>
+    </div>
+</div>
