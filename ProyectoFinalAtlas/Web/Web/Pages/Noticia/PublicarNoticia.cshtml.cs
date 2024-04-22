@@ -21,6 +21,7 @@ namespace Web.Pages.Noticia
         }
         public void OnGet()
         {
+            Noticia.FechaPublicacion = DateTime.Now; 
         }
         public async Task<IActionResult> OnPostAsync()
         {

@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="~/css/nuevo/select.dataTables.min.css">
     <link rel="stylesheet" href="~/css/nuevo/style.css">
     <link rel="stylesheet" href="~/css/nuevo/crud.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="~/images/logo_icecastle.png" />
 </head>
 
@@ -77,35 +78,35 @@
                 <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Noticia/Noticias">
-                            <i class="fa fa-star"></i>
-                            <span class="menu-title">Noticias</span>
+                            <i class='bx bxs-news menu-icon'></i>
+                            <span class="menu-title"> Noticias</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Eventos/Calendario">
-                            <i class="fa fa-fire"></i>
-                            <span class="menu-title">Calendario</span>
+                            <i class='bx bxs-calendar menu-icon'></i>
+                            <span class="menu-title"> Calendario</span>
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Recurso/Recursos">
-                            <i class="fa fa-th"></i>
-                            <span class="menu-title">Recursos</span>
+                            <i class='bx bxs-info-circle menu-icon'></i>
+                            <span class="menu-title"> Recursos</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Shuffle">
-                            <i class="fa fa-random"></i>
-                            <span class="menu-title">Reglamentos</span>
+                            <i class='bx bxs-ruler menu-icon'></i>
+                            <span class="menu-title"> Reglamentos</span>
                         </a>
                     </li>
                     @if (User.IsInRole("1"))
                     {
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Usuario/UsuariosAdmin">
-                                <i class="fa fa-random"></i>
-                                <span class="menu-title">Usuarios</span>
+                                <i class='bx bxs-user-plus menu-icon'></i>
+                                <span class="menu-title"> Usuarios</span>
                             </a>
                         </li>
                     }
@@ -132,8 +133,10 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
+
 
 
 
