@@ -4,88 +4,139 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>@ViewData["Title"] - Dashboard</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/nuevo/site.css" asp-append-version="true" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/nuevo/feather/feather.css">
+    <link rel="stylesheet" href="~/css/nuevo/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/css/nuevo/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="~/css/nuevo/cerrar/themify/themify-icons.css>
+    <link rel="stylesheet" type="text/css" href="~/css/nuevo/select.dataTables.min.css">
+    <link rel="stylesheet" href="~/css/nuevo/style.css">
+    <link rel="stylesheet" href="~/css/nuevo/crud.css">
+    <link rel="shortcut icon" href="~/images/logo_icecastle.png" />
 </head>
+
 <body>
-    <div class="dashboard">
-        <aside class="search-wrap">
-            <div></div>
-            <div class="dropdown">
-                <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    @User.Identity.Name
+    <div class="container-scroller">
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo mr-5">
+                    <img src="~/images/logo_icecastle.png" alt="logo" />
+                    <img src="~/images/LOGONUEVO.png" class="mr-2" alt="logo" />
+                </a>
+                <a class="navbar-brand brand-logo-mini">
+                    <img src="~/images/logo_icecastle.png" alt="logo" />
+                </a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                    <span class="icon-menu"></span>
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" asp-area="" asp-page="/Perfil/Perfil">Perfil</a>
-                    <a class="dropdown-item" asp-page="/Acceso/Logout">Cerrar Sesión</a></>
-                </div>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                        data-toggle="offcanvas">
+                    <span class="icon-menu"></span>
+                </button>
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item nav-profile dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                            <img src="~/images/usuario vacio.png" alt="profile" style="width:25px; height:25px" />
+                            @User.Identity.Name
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+                            <a class="dropdown-item" asp-area="" asp-page="/Perfil/Perfil">
+                                <i class="ti-power-off text-primary"></i>
+                                Perfil
+                            </a>
+                            <a class="dropdown-item" asp-page="/Acceso/Logout">
+                                <i class="ti-power-off text-primary"></i>
+                                Cerrar Sesión
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </aside>
 
-        <header class="menu-wrap">
-            <figure class="user">
-                <div class="user-avatar">
-                    <img src="~/images/logo_icecastle.png" alt="Logo">
-                </div>
-                <figcaption>
-                    Ice Castle
-                </figcaption>
-            </figure>
+        </nav>
+        <div class="container-fluid page-body-wrapper">
+            <div id="right-sidebar" class="settings-panel">
+                <i class="settings-close ti-close"></i>
+                <ul class="nav nav-tabs border-top" id="setting-panel" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="todo-tab" data-toggle="tab" href="#todo-section" role="tab"
+                           aria-controls="todo-section" aria-expanded="true">TO DO LIST</a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Noticia/Noticias">
+                            <i class="fa fa-star"></i>
+                            <span class="menu-title">Noticias</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Eventos/Calendario">
+                            <i class="fa fa-fire"></i>
+                            <span class="menu-title">Calendario</span>
+                        </a>
+                    </li>
 
-            <nav>
-                <section class="dicover">
-                    <ul>
-                        <li>
-                            <a asp-area="" asp-page="/Noticia/Noticias">
-                                <i class="fa fa-star"></i>
-                                Noticias
-                            </a>
-                        </li>
-                        <li>
-                            <a asp-area="" asp-page="/Eventos/Calendario">
-                                <i class="fa fa-fire"></i>
-                                Calendario
-                            </a>
-                        </li>
-                        <li>
-                            <a asp-area="" asp-page="/Recurso/Recursos">
-                                <i class="fa fa-th"></i>
-                                Recursos
-                            </a>
-                        </li>
-                        <li>
-                            <a asp-area="" asp-page="/Shuffle">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Recurso/Recursos">
+                            <i class="fa fa-th"></i>
+                            <span class="menu-title">Recursos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Shuffle">
+                            <i class="fa fa-random"></i>
+                            <span class="menu-title">Reglamentos</span>
+                        </a>
+                    </li>
+                    @if (User.IsInRole("1"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Usuario/UsuariosAdmin">
                                 <i class="fa fa-random"></i>
-                                Reglamentos
+                                <span class="menu-title">Usuarios</span>
                             </a>
                         </li>
-                        @if (User.IsInRole("1"))
-                        {
-                            <li>
-                                <a asp-area="" asp-page="/Usuario/UsuariosAdmin">
-                                    <i class="fa fa-random"></i>
-                                    Usuarios
-                                </a>
-                            </li>
-                        }
-
-                    </ul>
-                </section>
+                    }
+                </ul>
             </nav>
-        </header>
 
-        <main class="content-wrap">
-            <div class="content">
-                @RenderBody()
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    @RenderBody()
+                </div>
             </div>
-        </main>
+        </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="~/js/vendor.bundle.base.js"></script>
+    <script src="~/js/chart.js/Chart.min.js"></script>
+    <script src="~/js/datatables.net/jquery.dataTables.js"></script>
+    <script src="~/js/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <script src="~/js/dataTables.select.min.js"></script>
+    <script src="~/js/off-canvas.js"></script>
+    <script src="~/js/hoverable-collapse.js"></script>
+    <script src="~/js/template.js"></script>
+    <script src="~/js/dashboard.js"></script>
+    <script src="~/js/Chart.roundedBarCharts.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
 </body>
 </html>
+
+
+
+
+
+
