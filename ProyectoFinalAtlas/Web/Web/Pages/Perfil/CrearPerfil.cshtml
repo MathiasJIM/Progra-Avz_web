@@ -6,41 +6,96 @@
     ViewData["Title"] = "Crear Perfil";
 }
 
-<div class="container">
-    <h2 class="my-4">Crear Perfil</h2>
+<style>
 
-    <form method="post" enctype="multipart/form-data">
-        <div class="form-group">
-            <label asp-for="Perfil.Nombre">Nombre</label>
-            <input asp-for="Perfil.Nombre" class="form-control" />
-            <span asp-validation-for="Perfil.Nombre" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Perfil.NombrePadreEncargado">Nombre del Padre/Encargado</label>
-            <input asp-for="Perfil.NombrePadreEncargado" class="form-control" />
-            <span asp-validation-for="Perfil.NombrePadreEncargado" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Perfil.ContactoEmergencia">Contacto de Emergencia</label>
-            <input asp-for="Perfil.ContactoEmergencia" class="form-control" />
-            <span asp-validation-for="Perfil.ContactoEmergencia" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Perfil.NumeroTelefono">Número de Teléfono</label>
-            <input asp-for="Perfil.NumeroTelefono" class="form-control" />
-            <span asp-validation-for="Perfil.NumeroTelefono" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Perfil.FechaNacimiento">Fecha de Nacimiento</label>
-            <input asp-for="Perfil.FechaNacimiento" type="date" class="form-control" />
-            <span asp-validation-for="Perfil.FechaNacimiento" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label for="FotoPerfil">Foto de Perfil</label>
-            <input type="file" class="form-control-file" id="FotoPerfil" name="FotoPerfil">
-            <span asp-validation-for="FotoPerfil" class="text-danger"></span>
-        </div>
+    .card {
+        border-radius: 20px; /* Bordes redondeados */
+        border: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra sutil */
+    }
 
-        <button type="submit" class="btn btn-primary">Crear</button>
-    </form>
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Sombra más prominente al hacer hover */
+        }
+
+    .form-control, .custom-file-input {
+        border-radius: 0.25rem; /* Bordes ligeramente redondeados para los inputs */
+    }
+
+    .rounded-pill {
+        border-radius: 50rem; /* Botones altamente redondeados */
+    }
+
+    .custom-file-label {
+        border-radius: 0.25rem;
+        transition: background-color .15s ease;
+    }
+
+    .profile-card-large {
+        width: 100%; /* Utilizar máximo espacio disponible */
+        max-width: 960px; /* Ancho máximo para grandes pantallas */
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-12">
+            <div class="card profile-card-large shadow-lg">
+                <div class="card-header bg-gradient-primary text-white rounded-top">
+                    <h4>Crear Perfil</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="Perfil.Nombre" class="control-label">Nombre</label>
+                            <input asp-for="Perfil.Nombre" class="form-control" placeholder="Introduce tu nombre completo">
+                            <span asp-validation-for="Perfil.Nombre" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Perfil.NombrePadreEncargado" class="control-label">Nombre del Padre/Encargado</label>
+                            <input asp-for="Perfil.NombrePadreEncargado" class="form-control" placeholder="Nombre del padre o encargado">
+                            <span asp-validation-for="Perfil.NombrePadreEncargado" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Perfil.ContactoEmergencia" class="control-label">Contacto de Emergencia</label>
+                            <input asp-for="Perfil.ContactoEmergencia" class="form-control" placeholder="Número de emergencia">
+                            <span asp-validation-for="Perfil.ContactoEmergencia" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Perfil.NumeroTelefono" class="control-label">Número de Teléfono</label>
+                            <input asp-for="Perfil.NumeroTelefono" class="form-control" placeholder="Número de teléfono válido">
+                            <span asp-validation-for="Perfil.NumeroTelefono" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Perfil.FechaNacimiento" class="control-label">Fecha de Nacimiento</label>
+                            <input asp-for="Perfil.FechaNacimiento" type="date" class="form-control">
+                            <span asp-validation-for="Perfil.FechaNacimiento" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="FotoPerfil" class="control-label">Foto de Perfil</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="FotoPerfil" name="FotoPerfil">
+                                <label class="custom-file-label" for="FotoPerfil">Elegir archivo...</label>
+                            </div>
+                        </div>
+                        <div class="text-right mt-4">
+                            <button type="submit" class="btn btn-primary rounded-pill">Crear Perfil</button>
+                            <a asp-page="/Perfil/Perfil" class="btn btn-secondary rounded-pill">Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.custom-file-input').on('change', function () {
+                let fileName = $(this).val().split('\\').pop();
+                $(this).next('.custom-file-label').addClass("selected").html(fileName);
+            });
+        });
+    </script>
+}

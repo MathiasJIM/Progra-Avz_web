@@ -52,10 +52,6 @@ namespace Web.Pages.Perfil
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
 
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "Id");
             if (userIdClaim == null)
@@ -68,16 +64,17 @@ namespace Web.Pages.Perfil
 
             try
             {
-                if (!string.IsNullOrEmpty(Perfil.FotoPerfil))
-                {
-                    var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", Perfil.FotoPerfil.TrimStart('/'));
-                    if (System.IO.File.Exists(oldFilePath))
-                    {
-                        System.IO.File.Delete(oldFilePath);
-                    }
-                }
                 if (FotoPerfil != null)
                 {
+                    if (!string.IsNullOrEmpty(Perfil.FotoPerfil))
+                    {
+                        var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", Perfil.FotoPerfil.TrimStart('/'));
+                        if (System.IO.File.Exists(oldFilePath))
+                        {
+                            System.IO.File.Delete(oldFilePath);
+                        }
+                    }
+
                     string fileName;
                     if (FotoPerfil.FileName.EndsWith(".jpg"))
                     {
@@ -104,7 +101,7 @@ namespace Web.Pages.Perfil
                 var respuesta = await cliente.PutAsJsonAsync(endPoint, Perfil);
                 respuesta.EnsureSuccessStatusCode();
 
-                return RedirectToPage("../Index");
+                return RedirectToPage("/Perfil/MiPerfil");
             }
             catch (HttpRequestException ex)
             {

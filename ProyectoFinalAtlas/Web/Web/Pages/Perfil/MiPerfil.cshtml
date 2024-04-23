@@ -1,0 +1,82 @@
+﻿@page
+@model Web.Pages.Perfil.PerfilModel
+
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "MiPerfil";
+}
+
+<style>
+    .card {
+        border-radius: 20px; /* Suavizar los bordes */
+        border: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra más suave y extensa */
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .img-thumbnail {
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+    }
+
+        .img-thumbnail:hover {
+            transform: scale(1.05);
+        }
+
+    .card-footer {
+        padding: 1rem 1.25rem;
+    }
+
+    .btn-block {
+        display: block;
+        width: 100%;
+    }
+
+    .rounded-pill {
+        border-radius: 50rem;
+    }
+
+    .shadow-lg {
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    }
+
+    .profile-card {
+        width: 100%; 
+        max-width: 960px; 
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-12">
+            <div class="card profile-card">
+                <div class="card-header bg-gradient-primary text-white rounded-top">
+                    <h4 class="mb-0">Perfil de Usuario</h4>
+                </div>
+                @if (Model.Perfil != null)
+                {
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <img src="@Model.Perfil.FotoPerfil" class="img-thumbnail rounded-circle mr-4" alt="Foto de Perfil" style="width: 150px; height: 150px; object-fit: cover;">
+                            <div>
+                                <h5>@Model.Perfil.Nombre</h5>
+                                <p class="mb-2"><strong>Contacto de Emergencia:</strong> @Model.Perfil.ContactoEmergencia</p>
+                                <p class="mb-2"><strong>Número de Teléfono:</strong> @Model.Perfil.NumeroTelefono</p>
+                                <p class="mb-0"><strong>Fecha de Nacimiento:</strong> @Model.Perfil.FechaNacimiento.ToString("dd/MM/yyyy")</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white rounded-bottom">
+                        <a asp-page="/Perfil/ActualizarPerfil" class="btn btn-primary btn-block rounded-pill">Editar Perfil</a>
+                    </div>
+                }
+                else
+                {
+                    <div class="card-body">
+                        <p class="text-center">No tienes un perfil configurado. <a asp-page="/Perfil/CrearPerfil" class="btn btn-primary rounded-pill">Crear Perfil</a></p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

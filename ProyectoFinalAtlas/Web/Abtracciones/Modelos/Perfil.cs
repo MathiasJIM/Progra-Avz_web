@@ -31,7 +31,7 @@ namespace Abstracciones.Modelos
         public DateTime FechaNacimiento { get; set; }
 
         [StringLength(255)]
-        public string FotoPerfil { get; set; } = "/images/default.png";
+        public string FotoPerfil { get; set; }
 
 
 
