@@ -44,7 +44,6 @@ namespace Web.Pages.Noticia
 
         public async Task<IActionResult> OnPostAsync()
         {
-
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "Id");
             if (userIdClaim == null)
             {
@@ -56,16 +55,18 @@ namespace Web.Pages.Noticia
 
             try
             {
-                if (!string.IsNullOrEmpty(Noticia.imagen))
-                {
-                    var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", Noticia.imagen.TrimStart('/'));
-                    if (System.IO.File.Exists(oldFilePath))
-                    {
-                        System.IO.File.Delete(oldFilePath);
-                    }
-                }
                 if (FotoNoticia != null)
                 {
+                    // Solo elimina la foto anterior si una nueva foto ha sido cargada
+                    if (!string.IsNullOrEmpty(Noticia.imagen))
+                    {
+                        var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", Noticia.imagen.TrimStart('/'));
+                        if (System.IO.File.Exists(oldFilePath))
+                        {
+                            System.IO.File.Delete(oldFilePath);
+                        }
+                    }
+
                     string fileName;
                     if (FotoNoticia.FileName.EndsWith(".jpg"))
                     {
@@ -85,13 +86,13 @@ namespace Web.Pages.Noticia
 
                     Noticia.imagen = $"/images/Perfiles/{fileName}";
                 }
-                // Actualizar el perfil en el servidor
+                // Actualizar la noticia en el servidor
                 string endPoint = _configuracion.GetEndpoint("ActualizarNoticiaPorID").Replace("{IDNoticia}", Noticia.ID.ToString());
                 var cliente = new HttpClient();
                 var respuesta = await cliente.PutAsJsonAsync(endPoint, Noticia);
                 respuesta.EnsureSuccessStatusCode();
 
-                return RedirectToPage("../Index");
+                return RedirectToPage("Noticias");
             }
             catch (HttpRequestException ex)
             {
