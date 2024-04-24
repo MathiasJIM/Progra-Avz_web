@@ -5,57 +5,69 @@
     ViewData["Title"] = "Mis Recursos";
 }
 
-<h1>Mis Recursos</h1>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="mb-4 text-center">Mis Recursos</h2>
+            <div class="mb-3">
+                <a class="btn btn-primary" asp-page="/Recurso/CrearRecurso">Subir Recursos</a>
+                <a class="btn btn-secondary" asp-page="/Recurso/Recursos"><i class="fas fa-arrow-left"></i> Volver</a>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover table-striped shadow">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Título</th>
+                            <th>Descripción</th>
+                            <th>Tipo</th>
+                            <th>Nivel</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var recurso in Model.Recursos)
+                        {
+                            <tr>
+                                <td>@recurso.Titulo</td>
+                                <td>@recurso.Descripcion</td>
+                                <td>@recurso.TipoRecurso</td>
+                                <td>@recurso.IDNivel</td>
+                                <td>
+                                    <a asp-page="/Recurso/ActualizarRecurso" asp-route-IDRecurso="@recurso.ID" class="btn btn-primary btn-sm">
+                                        <i class="fas fa-edit"></i> Editar
+                                    </a>
+                                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteModal_@recurso.ID">
+                                        <i class="fas fa-trash"></i> Eliminar
+                                    </button>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Título</th>
-            <th>Descripción</th>
-            <th>Tipo</th>
-            <th>Nivel</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var recurso in Model.Recursos)
-        {
-            <tr>
-                <td>@recurso.Titulo</td>
-                <td>@recurso.Descripcion</td>
-                <td>@recurso.TipoRecurso</td>
-                <td>
-                    @switch (recurso.IDNivel)
-                    {
-                        case 1:
-                            <text>Principiante</text>
-                            break;
-                        case 2:
-                            <text>Medio</text>
-                            break;
-                        case 3:
-                            <text>Avanzado</text>
-                            break;
-                        default:
-                            <text>Desconocido</text>
-                            break;
-                    }
-                </td>
-                <td>
-                    <a asp-page="/Recurso/ActualizarRecurso" asp-route-IDRecurso="@recurso.ID" class="btn btn-primary">
-                        <i class="fas fa-edit">Editar</i>
-                    </a>
-                    <form method="post" asp-page-handler="Delete" asp-route-id="@recurso.ID">
-                        <button type="submit" class="btn btn-danger" onclick="return confirm('¿Está seguro de querer eliminar este recurso?');">
-                            <i class="fas fa-trash"></i> Eliminar
-                        </button>
-                    </form>
-                </td>
-                <td>
-
-
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="deleteModal_@recurso.ID" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel_@recurso.ID" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="deleteModalLabel_@recurso.ID">Confirmar Eliminación</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    ¿Estás seguro que deseas eliminar el recurso: <strong>@recurso.Titulo</strong>?
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                                    <form method="post" asp-page-handler="Delete" asp-route-id="@recurso.ID">
+                                                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

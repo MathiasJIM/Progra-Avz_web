@@ -5,14 +5,13 @@
     ViewData["Title"] = "Lista de Recursos";
 }
 
-<h1 class="text-center my-4">Recursos Disponibles</h1>
-
-<div class="container">
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Recursos Disponibles</h1>
     <div class="row">
         @foreach (var recurso in Model.Recurso.Where(r => r.TipoRecurso == Model.Tipo))
         {
             <div class="col-md-4 mb-4">
-                <div class="card h-100">
+                <div class="card h-100 shadow">
                     <div class="card-body">
                         <h5 class="card-title">@recurso.Titulo</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Tipo: @recurso.TipoRecurso</h6>

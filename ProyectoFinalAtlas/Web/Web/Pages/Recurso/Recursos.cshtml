@@ -5,32 +5,28 @@
     ViewData["Title"] = "Recursos de Entrenamiento";
 }
 
-@if (User.IsInRole("1") || User.IsInRole("2"))
-{
-
-    <div class="d-flex justify-content-center">
-        <a class="btn btn-dark" asp-page="/Recurso/CrearRecurso">Subir Recursos</a>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="mb-0">Recursos de Entrenamiento</h2>
+                @if (User.IsInRole("1") || User.IsInRole("2"))
+                {
+                    <a class="btn btn-primary" asp-page="/Recurso/MisRecursos">Mis Recursos</a>
+                }
+            </div>
+        </div>
     </div>
 
-
-    <div class="d-flex justify-content-center">
-        <a class="btn btn-dark" asp-page="/Recurso/MisRecursos">Mis Recursos</a>
-    </div>
-
-}
-
-<div class="container">
     <div class="row">
         <!-- Calentamiento o Estiramiento -->
         <div class="col-md-6 mb-4">
-            <div class="card mb-3">
+            <div class="card">
                 <img src="~/images/Recursos/calentamiento.jpg" class="card-img-top" alt="Calentamiento o Estiramiento">
                 <div class="card-body">
                     <h5 class="card-title">Calentamiento o Estiramiento</h5>
                     <p class="card-text">Encuentra las mejores prácticas para comenzar tu entrenamiento.</p>
-                    <div class="d-flex justify-content-center">
-                        <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos" asp-route-tipo="Calentamiento o Estiramiento">Ver</a>
-                    </div>
+                    <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos" asp-route-tipo="Calentamiento o Estiramiento">Ver más</a>
                 </div>
             </div>
         </div>
@@ -41,9 +37,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Nutrición Deportiva</h5>
                     <p class="card-text">Aprende sobre la dieta adecuada para optimizar tu rendimiento deportivo.</p>
-                    <div class="d-flex justify-content-center">
-                        <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos" asp-route-tipo="Nutrición Deportiva">Ver</a>
-                    </div>
+                    <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos" asp-route-tipo="Nutrición Deportiva">Ver más</a>
                 </div>
                 <img src="~/images/Recursos/nutricion.jpg" class="card-img-bottom" alt="Nutrición Deportiva">
             </div>
@@ -51,14 +45,12 @@
 
         <!-- Análisis de Técnica -->
         <div class="col-md-6 mb-4">
-            <div class="card mb-3">
+            <div class="card">
                 <img src="~/images/Recursos/analisis.jpg" class="card-img-top" alt="Análisis de Técnica">
                 <div class="card-body">
                     <h5 class="card-title">Análisis de Técnica</h5>
                     <p class="card-text">Mejora tu técnica con nuestros análisis detallados.</p>
-                    <div class="d-flex justify-content-center">
-                        <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos">Ver</a>
-                    </div>
+                    <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos" asp-route-tipo="Análisis de Técnica">Ver más</a>
                 </div>
             </div>
         </div>
@@ -69,9 +61,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Rutinas de Entrenamiento</h5>
                     <p class="card-text">Descubre rutinas de entrenamiento efectivas para mejorar tu forma física.</p>
-                    <div class="d-flex justify-content-center">
-                        <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos">Ver</a>
-                    </div>
+                    <a class="btn btn-info" asp-page="/Recurso/MostrarRecursos" asp-route-tipo="Rutinas de Entrenamiento">Ver más</a>
                 </div>
                 <img src="~/images/Recursos/rutinas.jpg" class="card-img-bottom" alt="Rutinas de Entrenamiento">
             </div>
