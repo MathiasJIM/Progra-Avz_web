@@ -40,5 +40,15 @@ namespace BW
         {
             return await _usuarioDA.ObtenerNombreRolPorId(idRol);
         }
+
+        public async Task<IEnumerable<Abstracciones.Models.UsuariosExistentes>> MostrarUsuarios()
+        {
+            return await _usuarioDA.MostrarUsuarios();
+        }
+
+        public async Task<Evento> EliminarUsuarioPorID(Guid UsuarioID)
+        {
+            return await _usuarioDA.EliminarUsuarioPorID(UsuarioID);
+        }
     }
 }

@@ -543,6 +543,32 @@
   },
   {
     "ContainingType": "API.Controllers.UsuarioController",
+    "Method": "EliminarUsuarioPorID",
+    "RelativePath": "api/Usuario/EliminarUsuarioPorID/{UsuarioID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioID",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.UsuarioController",
+    "Method": "MostrarUsuarios",
+    "RelativePath": "api/Usuario/MostrarUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.UsuarioController",
     "Method": "ObtenerEstado",
     "RelativePath": "api/Usuario/ObtenerEstado/{id}",
     "HttpMethod": "GET",

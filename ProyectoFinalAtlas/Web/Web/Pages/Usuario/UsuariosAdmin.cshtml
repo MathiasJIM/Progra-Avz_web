@@ -1,4 +1,5 @@
 ﻿@page
+@using Microsoft.AspNetCore.Html
 @model Web.Pages.Usuario.UsuariosAdminModel
 @{
     Layout = "_DashboardLayout";
@@ -9,73 +10,85 @@
     <h2 class="mb-4">Administración de Usuarios</h2>
     <a class="btn btn-primary mb-4" asp-page="/Acceso/Registro">Registrar Usuario</a>
 
-    <!-- Tabs para diferentes roles -->
+    <!-- Tabs for different roles -->
     <ul class="nav nav-tabs" id="roleTabs" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" id="admin-tab" data-toggle="tab" href="#admin" role="tab" aria-controls="admin" aria-selected="true">Administradores</a>
+            <a class="nav-link active" asp-page-handler="Load" asp-route-NombreRol="Administrador" role="tab">Administradores</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="teacher-tab" data-toggle="tab" href="#teacher" role="tab" aria-controls="teacher" aria-selected="false">Profesores</a>
+            <a class="nav-link" asp-page-handler="Load" asp-route-NombreRol="Profesor" role="tab">Profesores</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="student-tab" data-toggle="tab" href="#student" role="tab" aria-controls="student" aria-selected="false">Estudiantes</a>
+            <a class="nav-link" asp-page-handler="Load" asp-route-NombreRol="Estudiante" role="tab">Estudiantes</a>
         </li>
     </ul>
 
-
-
-
-@*     DESCOMENTAR CON CTRL K U CUANDO SE IMPLEMENTE LA LOGICA *@
-
-
-
-
-@*     <!-- Contenido de los tabs -->
     <div class="tab-content" id="roleTabsContent">
         <div class="tab-pane fade show active" id="admin" role="tabpanel" aria-labelledby="admin-tab">
-            <!-- Tabla para Administradores -->
-            @RenderUserTable(Model.Administradores)
-        </div>
-        <div class="tab-pane fade" id="teacher" role="tabpanel" aria-labelledby="teacher-tab">
-            <!-- Tabla para Profesores -->
-            @RenderUserTable(Model.Profesores)
-        </div>
-        <div class="tab-pane fade" id="student" role="tabpanel" aria-labelledby="student-tab">
-            <!-- Tabla para Estudiantes -->
-            @RenderUserTable(Model.Estudiantes)
+            @RenderUserTable(Model.Usuarios)
         </div>
     </div>
 </div>
 
-@functions {
-    private IHtmlContent RenderUserTable(IEnumerable<Usuario> usuarios)
-    {
-        <div class="table-responsive">
-            <table class="table table-hover table-striped shadow">
-                <thead class="thead-dark">
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Correo Electrónico</th>
-                        <th>Acciones</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var usuario in usuarios)
-                    {
-                        <tr>
-                            <td>@usuario.NombreCompleto</td>
-                            <td>@usuario.CorreoElectronico</td>
-                            <td>
-                                <a asp-page="/Usuario/EditarUsuario" asp-route-id="@usuario.ID" class="btn btn-primary btn-sm">
-                                    <i class="fas fa-edit"></i> Editar
-                                </a>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
+<!-- Generic Modal for Deletion Confirmation -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Confirmar Eliminación</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- The deletion question will be inserted here by JavaScript -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <form method="post" asp-page-handler="Delete" id="deleteForm">
+                    <input type="hidden" id="userId" name="id" />
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                </form>
+            </div>
         </div>
-    }
-} *@
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.delete-button').click(function () {
+            var userId = $(this).data('id');
+            var userName = $(this).data('name');
+            $('#deleteModal').find('.modal-body').text(`¿Estás seguro que deseas eliminar al usuario: ${userName}?`);
+            $('#deleteForm').find('input[name="id"]').val(userId);
+            $('#deleteModal').modal('show');
+        });
+    });
+</script>
+
+@functions {
+    public HtmlString RenderUserTable(IEnumerable<Abstracciones.Modelos.UsuariosExistentes> usuarios)
+    {
+        var sb = new System.Text.StringBuilder();
+        sb.AppendLine("<div class=\"table-responsive\">");
+        sb.AppendLine("<table class=\"table table-hover table-striped shadow\">");
+        sb.AppendLine("<thead class=\"thead-dark\">");
+        sb.AppendLine("<tr><th>Nombre</th><th>Correo Electrónico</th><th>Rol</th><th>Acciones</th></tr>");
+        sb.AppendLine("</thead>");
+        sb.AppendLine("<tbody>");
+
+        foreach (var usuario in usuarios)
+        {
+            string buttonId = $"deleteButton_{usuario.ID}";
+            sb.AppendLine($"<tr><td>{usuario.NombreCompleto}</td><td>{usuario.CorreoElectronico}</td><td>{usuario.NombreRol}</td><td>");
+            sb.AppendLine($"<button type='button' class='btn btn-danger btn-sm delete-button' data-toggle='modal' data-target='#deleteModal' data-id='{usuario.ID}' data-name='{usuario.NombreCompleto}' id='{buttonId}'><i class='fas fa-trash'></i> Eliminar</button>");
+            sb.AppendLine("</td></tr>");
+        }
+
+        sb.AppendLine("</tbody>");
+        sb.AppendLine("</table>");
+        sb.AppendLine("</div>");
+        return new HtmlString(sb.ToString());
+    }
+}

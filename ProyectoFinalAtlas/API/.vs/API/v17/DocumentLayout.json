@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E85974F9-C07C-4EA8-A597-0A6E80CE4253}|DA\\DA.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\da\\eventoda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85974F9-C07C-4EA8-A597-0A6E80CE4253}|DA\\DA.csproj|solutionrelative:da\\eventoda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|solutionrelative:api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\api\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|solutionrelative:api\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E22A23-B833-4101-ACC8-B56384D80839}|BW\\BW.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\bw\\usuariobw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E22A23-B833-4101-ACC8-B56384D80839}|BW\\BW.csproj|solutionrelative:bw\\usuariobw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B10968-4871-4EBC-B380-E375CB0BC0C5}|Abstracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\abstracciones\\bw\\iusuariobw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B10968-4871-4EBC-B380-E375CB0BC0C5}|Abstracciones\\Abstracciones.csproj|solutionrelative:abstracciones\\bw\\iusuariobw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B10968-4871-4EBC-B380-E375CB0BC0C5}|Abstracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\abstracciones\\da\\iusuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B10968-4871-4EBC-B380-E375CB0BC0C5}|Abstracciones\\Abstracciones.csproj|solutionrelative:abstracciones\\da\\iusuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85974F9-C07C-4EA8-A597-0A6E80CE4253}|DA\\DA.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\da\\usuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85974F9-C07C-4EA8-A597-0A6E80CE4253}|DA\\DA.csproj|solutionrelative:da\\usuarioda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85974F9-C07C-4EA8-A597-0A6E80CE4253}|DA\\DA.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\da\\eventoda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85974F9-C07C-4EA8-A597-0A6E80CE4253}|DA\\DA.csproj|solutionrelative:da\\eventoda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85974F9-C07C-4EA8-A597-0A6E80CE4253}|DA\\DA.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\da\\noticiada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85974F9-C07C-4EA8-A597-0A6E80CE4253}|DA\\DA.csproj|solutionrelative:da\\noticiada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B10968-4871-4EBC-B380-E375CB0BC0C5}|Abstracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\abstracciones\\models\\usuariosexistentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B10968-4871-4EBC-B380-E375CB0BC0C5}|Abstracciones\\Abstracciones.csproj|solutionrelative:abstracciones\\models\\usuariosexistentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67B10968-4871-4EBC-B380-E375CB0BC0C5}|Abstracciones\\Abstracciones.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\abstracciones\\entities\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|c:\\users\\mathias\\onedrive\\escritorio\\paa\\grupoatlas-proyecto\\proyectofinalatlas\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{046A68EC-EF71-4A0F-966E-BDE0909D5A12}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -121,8 +149,127 @@
               "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:296:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UsuarioBW.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\BW\\UsuarioBW.cs",
+              "RelativeDocumentMoniker": "BW\\UsuarioBW.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\BW\\UsuarioBW.cs",
+              "RelativeToolTip": "BW\\UsuarioBW.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwDIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:35:34.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUsuarioBW.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\BW\\IUsuarioBW.cs",
+              "RelativeDocumentMoniker": "Abstracciones\\BW\\IUsuarioBW.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\BW\\IUsuarioBW.cs",
+              "RelativeToolTip": "Abstracciones\\BW\\IUsuarioBW.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:35:26.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioDA.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\DA\\IUsuarioDA.cs",
+              "RelativeDocumentMoniker": "Abstracciones\\DA\\IUsuarioDA.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\DA\\IUsuarioDA.cs",
+              "RelativeToolTip": "Abstracciones\\DA\\IUsuarioDA.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:35:20.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuariosExistentes.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Models\\UsuariosExistentes.cs",
+              "RelativeDocumentMoniker": "Abstracciones\\Models\\UsuariosExistentes.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Models\\UsuariosExistentes.cs",
+              "RelativeToolTip": "Abstracciones\\Models\\UsuariosExistentes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:33:46.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\API\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\API\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "API\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAkwEkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:18:33.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioDA.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\UsuarioDA.cs",
+              "RelativeDocumentMoniker": "DA\\UsuarioDA.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\UsuarioDA.cs",
+              "RelativeToolTip": "DA\\UsuarioDA.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwEkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:18:33.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NoticiaDA.cs",
+              "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\NoticiaDA.cs",
+              "RelativeDocumentMoniker": "DA\\NoticiaDA.cs",
+              "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\NoticiaDA.cs",
+              "RelativeToolTip": "DA\\NoticiaDA.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAFcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:18:33.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Evento.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Entities\\Evento.cs",
               "RelativeDocumentMoniker": "Abstracciones\\Entities\\Evento.cs",
@@ -135,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Evento.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Models\\Evento.cs",
               "RelativeDocumentMoniker": "Abstracciones\\Models\\Evento.cs",
@@ -148,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "UsuarioAsistente.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Models\\UsuarioAsistente.cs",
               "RelativeDocumentMoniker": "Abstracciones\\Models\\UsuarioAsistente.cs",
@@ -161,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "DatosAsistencia.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\Models\\DatosAsistencia.cs",
               "RelativeDocumentMoniker": "Abstracciones\\Models\\DatosAsistencia.cs",
@@ -174,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "EventoBW.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\BW\\EventoBW.cs",
               "RelativeDocumentMoniker": "BW\\EventoBW.cs",
@@ -187,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "IEventoBW.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\BW\\IEventoBW.cs",
               "RelativeDocumentMoniker": "Abstracciones\\BW\\IEventoBW.cs",
@@ -200,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "IEventoDA.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\DA\\IEventoDA.cs",
               "RelativeDocumentMoniker": "Abstracciones\\DA\\IEventoDA.cs",
@@ -213,13 +360,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "EventoDA.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\EventoDA.cs",
               "RelativeDocumentMoniker": "DA\\EventoDA.cs",
               "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\EventoDA.cs",
               "RelativeToolTip": "DA\\EventoDA.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAYwFYAAAAIAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T00:17:25.491Z",
               "EditorCaption": ""
@@ -232,14 +379,14 @@
               "RelativeDocumentMoniker": "API\\Controllers\\EventoController.cs",
               "ToolTip": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\API\\Controllers\\EventoController.cs",
               "RelativeToolTip": "API\\Controllers\\EventoController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAswDwAAAAIAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T00:13:49.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "BW.csproj",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\BW\\BW.csproj",
               "RelativeDocumentMoniker": "BW\\BW.csproj",
@@ -251,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "IAutenticacionBW.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\Abstracciones\\BW\\IAutenticacionBW.cs",
               "RelativeDocumentMoniker": "Abstracciones\\BW\\IAutenticacionBW.cs",
@@ -259,11 +406,12 @@
               "RelativeToolTip": "Abstracciones\\BW\\IAutenticacionBW.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T04:21:15.999Z"
+              "WhenOpened": "2024-04-17T04:21:15.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "ClaimsPerfilesMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\AutorizacionMiddleware\\ClaimsPerfilesMiddleware.cs",
               "RelativeDocumentMoniker": "AutorizacionMiddleware\\ClaimsPerfilesMiddleware.cs",
@@ -276,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "SeguridadDA.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\DA\\SeguridadDA.cs",
               "RelativeDocumentMoniker": "DA\\SeguridadDA.cs",
@@ -284,11 +432,12 @@
               "RelativeToolTip": "DA\\SeguridadDA.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T03:52:15.811Z"
+              "WhenOpened": "2024-04-17T03:52:15.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
@@ -296,11 +445,12 @@
               "RelativeToolTip": "API\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T03:51:01.904Z"
+              "WhenOpened": "2024-04-17T03:51:01.904Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -308,11 +458,12 @@
               "RelativeToolTip": "API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-17T03:48:56.035Z"
+              "WhenOpened": "2024-04-17T03:48:56.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "AutenticacionBW.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\BW\\AutenticacionBW.cs",
               "RelativeDocumentMoniker": "BW\\AutenticacionBW.cs",
@@ -320,11 +471,12 @@
               "RelativeToolTip": "BW\\AutenticacionBW.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T03:42:06.139Z"
+              "WhenOpened": "2024-04-17T03:42:06.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "AutenticacionController.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\API\\Controllers\\AutenticacionController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\AutenticacionController.cs",
@@ -337,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "UsuarioBC.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\BC\\UsuarioBC.cs",
               "RelativeDocumentMoniker": "BC\\UsuarioBC.cs",
@@ -350,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "AutenticacionBC.cs",
               "DocumentMoniker": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\API\\BC\\AutenticacionBC.cs",
               "RelativeDocumentMoniker": "BC\\AutenticacionBC.cs",
@@ -358,7 +510,8 @@
               "RelativeToolTip": "BC\\AutenticacionBC.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T03:32:03.047Z"
+              "WhenOpened": "2024-04-17T03:32:03.047Z",
+              "EditorCaption": ""
             }
           ]
         }

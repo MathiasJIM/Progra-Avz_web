@@ -9,6 +9,86 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\cerrar\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\css\\nuevo\\cerrar\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\cerrar\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\css\\nuevo\\cerrar\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\cerrar\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\css\\nuevo\\cerrar\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\cerrar\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\css\\nuevo\\cerrar\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\cerrar\\themify\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\cerrar\\themify\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\crud.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\crud.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\feather\\feather.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\feather\\feather.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\feather\\fonts\\feather-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\nuevo\\feather\\fonts\\feather-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\feather\\fonts\\feather-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\nuevo\\feather\\fonts\\feather-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\feather\\fonts\\feather-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\nuevo\\feather\\fonts\\feather-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\feather\\fonts\\feather-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\nuevo\\feather\\fonts\\feather-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\login.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\registro.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\registro.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\reporte.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\reporte.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\select.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\select.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\site.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\style.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\nuevo\\vertical\\style.css",
+      "PackagePath": "staticwebassets\\css\\nuevo\\vertical\\style.css"
+    },
+    {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -21,8 +101,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\FondoBlanco.jpg",
+      "PackagePath": "staticwebassets\\images\\FondoBlanco.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\FondoInicioSesion.jpg",
+      "PackagePath": "staticwebassets\\images\\FondoInicioSesion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\FondoLogIngOpcion3.jpg",
+      "PackagePath": "staticwebassets\\images\\FondoLogIngOpcion3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\FondoVarios.jpg",
+      "PackagePath": "staticwebassets\\images\\FondoVarios.jpg"
+    },
+    {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Hasbun_gyat.jpg",
       "PackagePath": "staticwebassets\\images\\Hasbun_gyat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\LOGONUEVO.png",
+      "PackagePath": "staticwebassets\\images\\LOGONUEVO.png"
     },
     {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Noticias\\Catalina Campeona_foto.jpg",
@@ -37,8 +137,16 @@
       "PackagePath": "staticwebassets\\images\\Noticias\\Noticias_foto.png"
     },
     {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Opcion4.jpg",
+      "PackagePath": "staticwebassets\\images\\Opcion4.jpg"
+    },
+    {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Perfiles\\Arthuro Chaves_foto.png",
       "PackagePath": "staticwebassets\\images\\Perfiles\\Arthuro Chaves_foto.png"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Perfiles\\Catalina Chaves_foto.jpg",
+      "PackagePath": "staticwebassets\\images\\Perfiles\\Catalina Chaves_foto.jpg"
     },
     {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\Perfiles\\Catastrofico!!_foto.jpg",
@@ -93,12 +201,88 @@
       "PackagePath": "staticwebassets\\images\\_gyat.jpg"
     },
     {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\fondoAzul.jpg",
+      "PackagePath": "staticwebassets\\images\\fondoAzul.jpg"
+    },
+    {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\logo_icecastle.png",
       "PackagePath": "staticwebassets\\images\\logo_icecastle.png"
     },
     {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\nature-3114608.jpg",
+      "PackagePath": "staticwebassets\\images\\nature-3114608.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\skating-boots-6657330.jpg",
+      "PackagePath": "staticwebassets\\images\\skating-boots-6657330.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\images\\usuario vacio.png",
+      "PackagePath": "staticwebassets\\images\\usuario vacio.png"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\Chart.roundedBarCharts.js",
+      "PackagePath": "staticwebassets\\js\\Chart.roundedBarCharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\settings.js",
+      "PackagePath": "staticwebassets\\js\\settings.js"
+    },
+    {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\template.js",
+      "PackagePath": "staticwebassets\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\js\\todolist.js"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\js\\vendor.bundle.base.js"
     },
     {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -327,6 +511,18 @@
     {
       "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\video\\landing1.mp4",
+      "PackagePath": "staticwebassets\\video\\landing1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\video\\landing2.mp4",
+      "PackagePath": "staticwebassets\\video\\landing2.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Mathias\\OneDrive\\Escritorio\\PAA\\GrupoAtlas-Proyecto\\ProyectoFinalAtlas\\Web\\Web\\wwwroot\\video\\landing3.mp4",
+      "PackagePath": "staticwebassets\\video\\landing3.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Web.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -65,6 +65,19 @@ namespace DA
             return await _sqlConnection.QueryFirstOrDefaultAsync<EstadoCuenta>(sql, new { Id = idEst });
         }
 
+        public async Task<IEnumerable<Abstracciones.Models.UsuariosExistentes>> MostrarUsuarios()
+        {
+            string sql = "[ObtenerTodosLosUsuarios]";
+            return await _sqlConnection.QueryAsync<Abstracciones.Models.UsuariosExistentes>(sql);
+        }
+
+        public async Task<Abstracciones.Models.Evento> EliminarUsuarioPorID(Guid UsuarioID)
+        {
+            string sql = "[EliminarUsuarioPorID]";
+            var parametros = new { UsuarioID = UsuarioID };
+            return await _sqlConnection.QueryFirstOrDefaultAsync<Abstracciones.Models.Evento>(sql, parametros);
+        }
+
 
 
     }

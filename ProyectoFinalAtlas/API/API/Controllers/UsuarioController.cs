@@ -2,6 +2,7 @@
 using Abstracciones.BW;
 using Abstracciones.Modelos;
 using Abstracciones.Models;
+using BW;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -60,6 +61,22 @@ namespace API.Controllers
         {
             return Ok(await _UsuarioBW.ObtenerEstadoPorId(id));
         }
+
+        [HttpGet]
+        [Route("MostrarUsuarios")]
+        public async Task<IActionResult> MostrarUsuarios()
+        {
+            return Ok(await _UsuarioBW.MostrarUsuarios());
+        }
+
+        [HttpPost]
+        [Route("EliminarUsuarioPorID/{UsuarioID}")]
+        public async Task<IActionResult> EliminarUsuarioPorID(Guid UsuarioID)
+        {
+            await _UsuarioBW.EliminarUsuarioPorID(UsuarioID);
+            return Ok("Evento eliminado con exito!");
+        }
+
 
 
 

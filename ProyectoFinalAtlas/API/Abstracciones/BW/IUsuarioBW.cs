@@ -14,5 +14,9 @@ namespace Abstracciones.BW
         Task<Abstracciones.Models.Usuario> ObtenerUsuarioPorId(Guid id);
         Task<Rol> ObtenerNombreRolPorId(int idRol);
         Task<EstadoCuenta> ObtenerEstadoPorId(int idEst);
+
+        Task<IEnumerable<Abstracciones.Models.UsuariosExistentes>> MostrarUsuarios();
+
+        Task<Abstracciones.Models.Evento> EliminarUsuarioPorID(Guid UsuarioID);
     }
 }
