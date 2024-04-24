@@ -11,9 +11,10 @@
         color: white; /* Color del texto dentro del evento */
     }
 
-        .fc-event:hover, .fc-event-dot:hover {
-            background-color: #357ABD; /* Color al pasar el mouse */
-        }
+    .fc-event:hover, .fc-event-dot:hover {
+        background-color: #357ABD; /* Color al pasar el mouse */
+    }
+
     #calendar {
         max-width: 900px;
         margin: 0 auto;
@@ -39,17 +40,36 @@
         transition: background-color 0.3s;
     }
 
-        .fc-button:hover {
-            background-color: #0056b3;
-        }
+    .fc-button:hover {
+        background-color: #0056b3;
+        color: white; /* Asegura que el texto sigue siendo blanco al pasar el mouse */
+    }
 
-    .fc-event {
-        cursor: pointer;
-        border: none;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    /* Estilos para asegurar visibilidad */
+    .fc-button-primary {
+        background-color: #007bff; /* Fondo azul para botones */
+        color: white; /* Texto blanco para botones */
+    }
+
+    .fc-button-primary:hover {
+        background-color: #0056b3; /* Color más oscuro para el estado hover */
+        color: white; /* Mantener el texto blanco en hover */
+    }
+
+    .fc-button-primary:not(:disabled):active, .fc-button-primary:not(:disabled).fc-button-active {
+        background-color: #004494; /* Color más oscuro para cuando está activo */
+        color: white;
+    }
+
+    .fc-button-primary:focus {
+        box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); /* Glow efecto para foco */
+    }
+
+    .fc .fc-button-group .fc-button {
+        background-color: black
     }
 </style>
+
 
 
 @if (TempData["SuccessMessage"] != null)
@@ -82,7 +102,7 @@
 
 <div class="container mt-5">
     <div class="row">
-        <div class="col-12 d-flex justify-content-between align-items-center">
+        <div class="col-12 d-flex justify-content-between align-items-center mb-2">
             <h2 class="text-center">Calendario de Eventos</h2>
             @if (User.IsInRole("1") || User.IsInRole("2"))
             {
