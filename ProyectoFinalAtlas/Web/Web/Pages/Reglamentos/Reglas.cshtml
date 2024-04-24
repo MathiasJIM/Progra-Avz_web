@@ -1,0 +1,108 @@
+﻿@page
+@model Web.Pages.Reglamentos.ReglasModel
+@{
+    Layout = "_DashboardLayout";
+    ViewData["Title"] = "Reglamentos del Club";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Reglamentos del Club</h1>
+
+    <!-- Navegación de pestañas -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#patinajeSobreHielo">Reglamentos de Patinaje sobre Hielo</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#pistaDeHielo">Reglamentos de la Pista de Hielo</a>
+        </li>
+    </ul>
+
+    <!-- Contenido de las pestañas -->
+    <div class="tab-content">
+        <!-- Reglamentos de Patinaje sobre Hielo -->
+        <div id="patinajeSobreHielo" class="tab-pane fade show active">
+            <div class="container mt-5">
+                <h1 class="text-center mb-4" style="color: #0056b3;">Reglamentos de Patinaje Sobre Hielo</h1>
+
+                <!-- Introducción de los reglamentos -->
+                <div class="jumbotron p-4 shadow-sm" style="background-color: #e9ecef; color: #0056b3;">
+                    <h2>Introducción</h2>
+                    <p>Este documento establece las reglas y obligaciones para todos los participantes del Programa Docente de Patinaje sobre Hielo en Castillo Country Club.</p>
+                </div>
+
+                <!-- Deberes de los Entrenadores y Encargados -->
+                <div class="jumbotron p-4 shadow-sm" style="background-color: #4A90E2; color: white;">
+                    <h3>Deberes de los Entrenadores y Encargados</h3>
+                    <ul>
+                        <li>Comunicar cronogramas y cambios oportunamente.</li>
+                        <li>Preparar y asistir a las sesiones de acuerdo con el horario establecido.</li>
+                        <li>Mantener actualizados los registros y expedientes de cada patinador.</li>
+                    </ul>
+                </div>
+
+                <!-- Deberes de los Patinadores -->
+                <div class="jumbotron p-4 shadow-sm" style="background-color: #f15c80; color: white;">
+                    <h3>Deberes de los Patinadores</h3>
+                    <ul>
+                        <li>Asistencia puntual a las clases y actividades programadas.</li>
+                        <li>Vestir adecuadamente y seguir las instrucciones de los entrenadores.</li>
+                    </ul>
+                </div>
+
+                <!-- Medidas Disciplinarias -->
+                <div class="jumbotron p-4 shadow-sm" style="background-color: #ff9800; color: white;">
+                    <h3>Medidas Disciplinarias</h3>
+                    <p>Las violaciones a las normas pueden resultar en sanciones que incluyen llamadas de atención, suspensión o incluso expulsión del programa.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reglamentos de la Pista de Hielo -->
+        <div id="pistaDeHielo" class="tab-pane fade">
+            <div class="container mt-5">
+                <h1 class="text-center mb-4" style="color: #007bff;">Reglamentos de la Pista de Hielo</h1>
+
+                <!-- Obligaciones Generales -->
+                <div class="jumbotron p-4 shadow" style="background-color: #e3f2fd;">
+                    <h2 style="color: #0056b3;">Obligaciones Generales</h2>
+                    <p>Este reglamento establece normas para el uso, goce y disfrute de la pista de hielo en el Castillo Country Club S.A. para asegurar la seguridad y el bienestar de todos los usuarios.</p>
+                </div>
+
+                <!-- Deberes y Prohibiciones -->
+                <div class="jumbotron p-4 shadow" style="background-color: #ffebee;">
+                    <h2 style="color: #d32f2f;">Deberes y Prohibiciones</h2>
+                    <ul>
+                        <li>Patinar en sentido contrario al movimiento de las manecillas del reloj salvo excepciones autorizadas.</li>
+                        <li>Está prohibido fumar, consumir alcohol o llevar a cabo comportamientos sexuales obscenos en las instalaciones.</li>
+                        <li>Uso obligatorio de patines y equipos de seguridad dentro de la pista.</li>
+                    </ul>
+                </div>
+
+                <!-- Responsabilidades y Sanciones -->
+                <div class="jumbotron p-4 shadow" style="background-color: #e8f5e9;">
+                    <h2 style="color: #2e7d32;">Responsabilidades y Sanciones</h2>
+                    <p>Cualquier daño o lesión causada por negligencia o incumplimiento de las normas puede llevar a sanciones que incluyen amonestaciones escritas, suspensión o expulsión del club.</p>
+                </div>
+
+                <!-- Proceso Disciplinario -->
+                <div class="jumbotron p-4 shadow" style="background-color: #fff3e0;">
+                    <h2 style="color: #ef6c00;">Proceso Disciplinario</h2>
+                    <p>Las acciones disciplinarias deben seguir un debido proceso, asegurando que todas las partes tengan derecho a ser escuchadas y a defenderse adecuadamente.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts necesarios para el funcionamiento de las pestañas -->
+@section Scripts {
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.nav-tabs a').click(function () {
+                $(this).tab('show');
+            });
+        });
+    </script>
+}
