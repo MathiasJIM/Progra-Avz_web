@@ -1,21 +1,34 @@
-﻿*{
+﻿* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: url(../../images/fondoAzul.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: transparent;
+    overflow: hidden; /* Prevent scrollbars */
 }
 
-.wrapper{
+.video-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Place video under the content */
+}
+
+.wrapper {
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -24,6 +37,19 @@ body {
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
+    z-index: 10; /* Ensure form is above video */
+}
+
+.wrapper {
+    width: 420px;
+    background: rgba(255, 255, 255, 0.1); /* Slightly white transparent background */
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); /* Reduced blur effect */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    z-index: 10; /* Ensure form is above video */
 }
 
 .wrapper h1{

@@ -16,16 +16,20 @@
     <link href="~/css/nuevo/login.css" rel="stylesheet" />
 </head>
 <body>
+    <video autoplay muted loop id="backgroundVideo" style="position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; z-index: -100;">
+        <source src="~/video/landing2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     <div class="wrapper">
         <form method="post">
             <h1>ICE CASTLE</h1>
             <div class="input-box">
-                <input type="email" asp-for="LoginInfo.CorreoElectronico" id="userName" placeholder="Correo Electronico" required></input>
+                <input type="email" asp-for="LoginInfo.CorreoElectronico" id="userName" placeholder="Correo Electronico" required>
                 <i class='bx bxs-user'></i>
             </div>
             <span asp-validation-for="LoginInfo.CorreoElectronico" class="text-danger"></span>
             <div class="input-box">
-                <input type="password" asp-for="LoginInfo.Contrasenia" placeholder="Contraseña" required></input>
+                <input type="password" asp-for="LoginInfo.Contrasenia" placeholder="Contraseña" required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
             <span asp-validation-for="LoginInfo.Contrasenia" class="text-danger"></span>
@@ -40,7 +44,6 @@
             </div>
         </form>
     </div>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
