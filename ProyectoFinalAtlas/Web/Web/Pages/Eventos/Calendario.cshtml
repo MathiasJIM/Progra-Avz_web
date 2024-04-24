@@ -4,41 +4,53 @@
     Layout = "_DashboardLayout";
     ViewData["Title"] = "Calendario de Eventos";
 }
+
 <style>
     .fc-event, .fc-event-dot {
-        background-color: #AED9E0;
+        background-color: #4A90E2; /* Color principal del evento */
+        color: white; /* Color del texto dentro del evento */
     }
 
         .fc-event:hover, .fc-event-dot:hover {
-            background-color: #77BEC4;
+            background-color: #357ABD; /* Color al pasar el mouse */
+        }
+    #calendar {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .fc-toolbar-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .fc-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .fc-button:hover {
+            background-color: #0056b3;
         }
 
-    #calendar {
-        max-width: 1000px; 
-    }
-
-    
-    .fc-today-button {
-        background-color: #4CAF50;
-        color: white; 
-        border-color: #4CAF50; 
-    }
-
-    .fc-prev-button, .fc-next-button {
-        background-color: #2196F3; 
-        color: white;
-        border-color: #2196F3;
-    }
-
-
-    .fc-today-button:hover {
-        background-color: #45A049;
-    }
-
-    .fc-prev-button:hover, .fc-next-button:hover {
-        background-color: #1E88E5;
+    .fc-event {
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
 </style>
+
 
 @if (TempData["SuccessMessage"] != null)
 {
@@ -68,17 +80,17 @@
     </script>
 }
 
-<div class="contenido-principal mt-5">
-    <div class="container">
-        <div class="row">
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+            <h2 class="text-center">Calendario de Eventos</h2>
             @if (User.IsInRole("1") || User.IsInRole("2"))
             {
-                <a class="btn btn-dark" asp-page="/Eventos/CrearEvento">Crear Evento</a>
-                <a class="btn btn-dark" asp-page="/Eventos/MisEventos">Mis Eventos</a>
+                <a class="btn btn-primary float-right" asp-page="/Eventos/MisEventos"><i class="fas fa-arrow-left"></i> Mis Eventos</a>
             }
-            <div class="col-md-10 mx-auto">
-                <div id="calendar"></div>
-            </div>
+        </div>
+        <div class="col-md-12">
+            <div id="calendar"></div>
         </div>
     </div>
 </div>
@@ -93,14 +105,26 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var eventosData = @Html.Raw(Json.Serialize(Model.Evento));
-        console.log("Datos de eventos serializados:", eventosData); // Esto mostrará la estructura completa de los datos serializados
-
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
             locale: 'es',
             initialView: 'dayGridMonth',
             buttonText: {
                 today: 'Hoy'
+            },
+            eventContent: function (arg) {
+                let arrayOfDomNodes = [];
+                let title = document.createElement('div');
+                title.innerHTML = '<strong>' + arg.event.title + '</strong>';
+                title.classList.add('fc-event-title');
+
+                let time = document.createElement('div');
+                time.innerHTML = arg.timeText;
+                time.classList.add('fc-event-time');
+
+                arrayOfDomNodes = [title, time];
+
+                return { domNodes: arrayOfDomNodes };
             },
             events: eventosData.map(function (evento) {
                 console.log("Evento individual:", evento);  // Esto mostrará cada evento y sus propiedades
@@ -114,9 +138,12 @@
                     description: evento.descripcion
                 };
             }),
+            headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'dayGridMonth,timeGridWeek,listWeek'
+            },
             eventClick: function (info) {
-                console.log("ID del evento clickeado:", info.event.id);  // Verificar el ID al hacer clic en un evento
-
                 Swal.fire({
                     title: info.event.title,
                     html: 'Descripción: ' + info.event.extendedProps.description +
@@ -136,9 +163,5 @@
         });
         calendar.render();
     });
-
-
-
-
-
 </script>
+

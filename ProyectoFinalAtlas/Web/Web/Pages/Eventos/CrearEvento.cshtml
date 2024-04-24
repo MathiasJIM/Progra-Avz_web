@@ -5,39 +5,50 @@
     ViewData["Title"] = "Crear Evento";
 }
 
-<h1>Crear Evento</h1>
-
-@if (!String.IsNullOrEmpty(Model.Mensaje))
-{
-    <div class="alert alert-info">
-        @Model.Mensaje
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            @if (!String.IsNullOrEmpty(Model.Mensaje))
+            {
+                <div class="alert alert-info">
+                    @Model.Mensaje
+                </div>
+            }
+            <div class="card shadow">
+                <div class="card-header">
+                    <h3 class="text-center">Crear Evento</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group">
+                            <label for="titulo">Título</label>
+                            <input type="text" class="form-control" id="titulo" name="Titulo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="descripcion">Descripción</label>
+                            <textarea class="form-control" id="descripcion" name="Descripcion"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="fechaHoraInicio">Fecha y Hora de Inicio</label>
+                            <input type="datetime-local" class="form-control" id="fechaHoraInicio" name="FechaHoraInicio" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="duracion">Duración (en horas)</label>
+                            <input type="number" class="form-control" id="duracion" name="Duracion">
+                        </div>
+                        <div class="form-group">
+                            <label for="ubicacion">Ubicación</label>
+                            <input type="text" class="form-control" id="ubicacion" name="Ubicacion">
+                        </div>
+                        <div class="form-group">
+                            <label for="tipoEvento">Tipo de Evento</label>
+                            <input type="text" class="form-control" id="tipoEvento" name="TipoEvento">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Crear Evento</button>
+                        <a asp-page="/Eventos/MisEventos" class="btn btn-secondary">Volver</a>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-}
-
-<form method="post">
-    <div class="form-group">
-        <label for="titulo">Título</label>
-        <input type="text" class="form-control" id="titulo" name="Titulo" required>
-    </div>
-    <div class="form-group">
-        <label for="descripcion">Descripción</label>
-        <textarea class="form-control" id="descripcion" name="Descripcion"></textarea>
-    </div>
-    <div class="form-group">
-        <label for="fechaHoraInicio">Fecha y Hora de Inicio</label>
-        <input type="datetime-local" class="form-control" id="fechaHoraInicio" name="FechaHoraInicio" required>
-    </div>
-    <div class="form-group">
-        <label for="duracion">Duración (en horas)</label>
-        <input type="number" class="form-control" id="duracion" name="Duracion">
-    </div>
-    <div class="form-group">
-        <label for="ubicacion">Ubicación</label>
-        <input type="text" class="form-control" id="ubicacion" name="Ubicacion">
-    </div>
-    <div class="form-group">
-        <label for="tipoEvento">Tipo de Evento</label>
-        <input type="text" class="form-control" id="tipoEvento" name="TipoEvento">
-    </div>
-    <button type="submit" class="btn btn-primary">Crear Evento</button>
-</form>
+</div>
